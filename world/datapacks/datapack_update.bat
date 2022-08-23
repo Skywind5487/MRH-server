@@ -1,3 +1,2 @@
-cd "./MRH_datapeck"
+cd "./MRH_datapack"
 git pull
-pause
