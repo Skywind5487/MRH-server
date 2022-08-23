@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 122.254.32.174
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1660455741814
+  login: 1660455635194
+money: '0'
+last-account-name: SiongSng
+logoutlocation:
+  world: 4153174d-f345-444c-9409-49da28c9a97e
+  world-name: world
+  x: 776.0359040818475
+  y: 127.98746793182359
+  z: -366.6787791291483
+  yaw: -8.900202751159668
+  pitch: 49.650001525878906

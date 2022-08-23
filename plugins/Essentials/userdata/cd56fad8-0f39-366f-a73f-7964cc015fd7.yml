@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 111.255.108.231
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1661152219101
+  login: 1661151907484
+money: '0'
+last-account-name: Skarten0305
+logoutlocation:
+  world: 4153174d-f345-444c-9409-49da28c9a97e
+  world-name: world
+  x: 646.9552709599209
+  y: 91.31706991885534
+  z: -446.29496576405063
+  yaw: 163.9620361328125
+  pitch: 37.79994201660156

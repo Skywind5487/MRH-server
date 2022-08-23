@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 189.250.11.211
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1660194288079
+  login: 1660194222633
+money: '0'
+last-account-name: SaxesKaiser
+logoutlocation:
+  world: 4153174d-f345-444c-9409-49da28c9a97e
+  world-name: world
+  x: -85.42731827255511
+  y: 64.0
+  z: -169.94285666024481
+  yaw: -269.0252380371094
+  pitch: 29.39980697631836

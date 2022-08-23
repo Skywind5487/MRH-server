@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 61.64.6.218
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1660028126818
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1660029360460
+  login: 1660025755756
+money: '0'
+last-account-name: LexoRomYT
+lastlocation:
+  world: 4153174d-f345-444c-9409-49da28c9a97e
+  world-name: world
+  x: 35.025206948741754
+  y: 78.0
+  z: -488.86870696043604
+  yaw: -124.20025634765625
+  pitch: 54.75004196166992
+logoutlocation:
+  world: 97a19186-81cd-44c6-87db-1b753ade4cee
+  world-name: world_the_end
+  x: -0.3000000119209287
+  y: 66.4705980176711
+  z: -0.30000001192092907
+  yaw: 297.6005859375
+  pitch: -22.499950408935547
