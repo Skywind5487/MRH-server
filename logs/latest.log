@@ -1,90 +1,10 @@
-[19:46:27] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[19:46:27] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[19:46:27] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[19:46:29] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[19:46:34] [ServerMain/INFO]: Building unoptimized datafixer
-[19:46:38] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:46:39] [ServerMain/WARN]: Missing data pack file/MRH_datapeck-main
-[19:46:39] [ServerMain/INFO]: Found new data pack file/MRH_datapack, loading it automatically
-[19:46:41] [Worker-Main-1/ERROR]: Not a JSON object: null
-[19:46:41] [Worker-Main-1/ERROR]: Couldn't read tag list mrh_command:functions_tag_test from mrh_command:tags/items/functions_tag_test.json in data pack MRH_datapack
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[paper-1.19.2.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:62) ~[?:?]
-	at net.minecraft.tags.TagLoader.loadAndBuild(TagLoader.java:179) ~[?:?]
-	at net.minecraft.tags.TagManager.createLoader(TagManager.java:56) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:46:41] [Worker-Main-2/ERROR]: Not a JSON object: null
-[19:46:41] [Worker-Main-2/ERROR]: Couldn't read tag list mrh_command:blocks_tag_test from mrh_command:tags/blocks/blocks_tag_test.json in data pack MRH_datapack
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[paper-1.19.2.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:62) ~[?:?]
-	at net.minecraft.tags.TagLoader.loadAndBuild(TagLoader.java:179) ~[?:?]
-	at net.minecraft.tags.TagManager.createLoader(TagManager.java:56) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:46:42] [Worker-Main-1/ERROR]: Couldn't parse data file mrh_command:recipes_test from mrh_command:recipes/recipes_test.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.b(RecipeManager.java:39) ~[?:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
-	... 8 more
-[19:46:42] [Worker-Main-1/ERROR]: Not a JSON object: null
-[19:46:42] [Worker-Main-1/ERROR]: Couldn't read tag list mrh_command:items_tag_test from mrh_command:tags/functions/items_tag_test.json in data pack MRH_datapack
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[paper-1.19.2.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:62) ~[?:?]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$0(ServerFunctionLibrary.java:69) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:46:42] [Worker-Main-2/ERROR]: Couldn't parse data file mrh_command:loot_table_test from mrh_command:loot_tables/loot_table_test.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootTables.b(LootTables.java:20) ~[paper-1.19.2.jar:git-Paper-131]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
-	... 8 more
-[19:46:42] [Worker-Main-1/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
+[20:19:58] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[20:19:58] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[20:19:58] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[20:19:59] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[20:20:05] [ServerMain/INFO]: Building unoptimized datafixer
+[20:20:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:20:11] [Worker-Main-2/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
 com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
@@ -104,304 +24,244 @@ Caused by: java.io.EOFException: End of input at line 1 column 1 path $
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
 	... 8 more
-[19:46:43] [ServerMain/INFO]: Loaded 7 recipes
-[19:46:43] [ServerMain/ERROR]: Failed to load function mrh_command:hall_to_changbin/changbin_1
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Option 'type' isn't applicable here at position 128: ...cator,type<--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Option 'type' isn't applicable here at position 128: ...cator,type<--[HERE]
-	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:84) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[19:46:48] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[19:46:48] [Server thread/INFO]: Loading properties
-[19:46:48] [Server thread/INFO]: This server is running Paper version git-Paper-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2da891f)
-[19:46:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:46:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:46:49] [Server thread/INFO]: Default game type: SURVIVAL
-[19:46:49] [Server thread/INFO]: Generating keypair
-[19:46:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:46:49] [Server thread/INFO]: Using default channel type
-[19:46:49] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[19:46:49] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:46:52] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[19:46:52] [Server thread/INFO]: [NoEncryption] Loading NoEncryption v4.2
-[19:46:52] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.1
-[19:46:52] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.1 is now loaded, injecting!
-[19:46:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[19:46:52] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[19:46:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:46:53] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[19:46:53] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[19:46:53] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[19:46:53] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[19:46:53] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[19:46:53] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[19:46:53] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
-[19:46:53] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[19:46:55] [Server thread/INFO]: [floodgate] ¯Ó®É 1,548 ms ¨Ó±Ò°Ê Floodgate
-[19:46:55] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[19:46:55] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.1
-[19:46:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:46:55] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[19:46:55] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[19:46:55] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[19:46:55] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[19:46:55] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[19:46:55] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[19:46:56] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[19:46:56] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[19:46:56] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[19:46:56] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[19:46:56] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[19:46:56] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b598
-[19:46:56] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
-[19:46:56] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
-[19:46:59] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
-[19:46:59] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[19:46:59] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[19:47:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@762c70c2]
-[19:47:01] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0-SNAPSHOT
-[19:47:01] [Server thread/INFO]: [InteractiveChat] Loading InteractiveChat v4.2.3.0
-[19:47:01] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.6-SNAPSHOT
-[19:47:01] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading InteractiveChatDiscordSrvAddon v4.2.3.0
-[19:47:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:47:01] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[19:47:01] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:47:02] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[19:47:02] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b598
-[19:47:02] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
-[19:47:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[19:47:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:47:02] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[19:47:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[19:47:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:47:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:47:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:47:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:47:06] [Server thread/INFO]: Preparing level "world"
-[19:47:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:47:10] [Server thread/INFO]: Time elapsed: 766 ms
-[19:47:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:47:10] [Server thread/INFO]: Time elapsed: 150 ms
-[19:47:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:47:10] [Server thread/INFO]: Time elapsed: 290 ms
-[19:47:10] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[19:47:10] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.1 which is not a depend or softdepend of this plugin.
-[19:47:11] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[19:47:11] [Server thread/INFO]: [NoEncryption] Enabling NoEncryption v4.2
-[19:47:11] [Server thread/INFO]: [NoEncryption] Your server is running version 1.19.2-R0.1-SNAPSHOT.
-[19:47:11] [Server thread/INFO]: [NoEncryption] Compatibility successful!
-[19:47:11] [Server thread/INFO]: [NoEncryption] If you used /reload to update NoEncryption, your players need to disconnect and join back.
-[19:47:11] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.1
-[19:47:11] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[19:47:11] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.1
-[19:47:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[19:47:12] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
-[19:47:12] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[19:47:12] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0-SNAPSHOT
-[19:47:12] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
-[19:47:13] [Thread-10/WARN]: [floodgate] 
+[20:20:11] [ServerMain/INFO]: Loaded 7 recipes
+[20:20:16] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[20:20:16] [Server thread/INFO]: Loading properties
+[20:20:16] [Server thread/INFO]: This server is running Paper version git-Paper-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2da891f)
+[20:20:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:20:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:20:17] [Server thread/INFO]: Default game type: SURVIVAL
+[20:20:17] [Server thread/INFO]: Generating keypair
+[20:20:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:20:18] [Server thread/INFO]: Using default channel type
+[20:20:18] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[20:20:18] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:20:21] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[20:20:21] [Server thread/INFO]: [NoEncryption] Loading NoEncryption v4.2
+[20:20:21] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.1
+[20:20:21] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.1 is now loaded, injecting!
+[20:20:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[20:20:22] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[20:20:22] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[20:20:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:20:22] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[20:20:22] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[20:20:22] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[20:20:22] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[20:20:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[20:20:22] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[20:20:22] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[20:20:24] [Server thread/INFO]: [floodgate] ¯Ó®É 1,125 ms ¨Ó±Ò°Ê Floodgate
+[20:20:24] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[20:20:24] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.1
+[20:20:24] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:20:24] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[20:20:24] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[20:20:24] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[20:20:24] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[20:20:24] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[20:20:24] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[20:20:24] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[20:20:24] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[20:20:24] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[20:20:24] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[20:20:24] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[20:20:25] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b598
+[20:20:25] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[20:20:25] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
+[20:20:27] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[20:20:27] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[20:20:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[20:20:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6c5f49a2]
+[20:20:29] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0-SNAPSHOT
+[20:20:29] [Server thread/INFO]: [InteractiveChat] Loading InteractiveChat v4.2.3.0
+[20:20:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.6-SNAPSHOT
+[20:20:29] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading InteractiveChatDiscordSrvAddon v4.2.3.0
+[20:20:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:20:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:20:29] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:20:29] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:20:29] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b598
+[20:20:29] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[20:20:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[20:20:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:20:30] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:20:30] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[20:20:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:20:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:20:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:20:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:20:33] [Server thread/INFO]: Preparing level "world"
+[20:20:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:20:36] [Server thread/INFO]: Time elapsed: 923 ms
+[20:20:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:20:37] [Server thread/INFO]: Time elapsed: 305 ms
+[20:20:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:20:37] [Server thread/INFO]: Time elapsed: 202 ms
+[20:20:37] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[20:20:37] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.1 which is not a depend or softdepend of this plugin.
+[20:20:39] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:20:39] [Server thread/INFO]: [NoEncryption] Enabling NoEncryption v4.2
+[20:20:39] [Server thread/INFO]: [NoEncryption] Your server is running version 1.19.2-R0.1-SNAPSHOT.
+[20:20:39] [Server thread/INFO]: [NoEncryption] Compatibility successful!
+[20:20:39] [Server thread/INFO]: [NoEncryption] If you used /reload to update NoEncryption, your players need to disconnect and join back.
+[20:20:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.1
+[20:20:39] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[20:20:41] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.1
+[20:20:41] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[20:20:41] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[20:20:42] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:20:42] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0-SNAPSHOT
+[20:20:42] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
+[20:20:43] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[20:20:43] [Thread-10/WARN]: [floodgate] 
 **********************************
 * The prefix you entered in your Floodgate config (_) could lead to username conflicts!
 * Should a Java player join with the username _Notch, and a Bedrock player join as Notch (who will be given the name _Notch), unwanted results will happen!
 * We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
 **********************************
-[19:47:26] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
-[19:47:26] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
-[19:47:27] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents ¤w­q¾\ (2 ºØ¤è®×)
-[19:47:27] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
-[19:47:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: interactivechat [1.0.0]
-[19:47:27] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
-[19:47:27] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.6-SNAPSHOT
-[19:47:27] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
-[19:47:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:47:28] [Server thread/INFO]: [Geyser-Spigot] 
-[19:47:28] [Server thread/INFO]: [Geyser-Spigot] ¥¿¦b¸ü¤J Geyser ª©¥» 2.0.6-SNAPSHOT (git-master-6856922)
-[19:47:28] [Server thread/INFO]: [Geyser-Spigot] 
-[19:47:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:47:33] [pool-25-thread-1/WARN]: [DiscordSRV] This build of DiscordSRV is ahead of master but behind develop. Update your development build!
-[19:47:36] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser ¦b 0.0.0.0:25560 ±Ò°Ê
-[19:47:36] [Server thread/INFO]: [Geyser-Spigot] §¹¦¨ (8.027s)¡I °õ¦æ /geyser help ¨Ó¨ú±o»¡©ú¡I
-[19:47:36] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.3.0
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.8-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-70.1-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
-[19:47:37] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
-[19:47:39] [Server thread/INFO]: [InteractiveChat] Loading languages...
-[19:47:39] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents ¤w­q¾\ (1 ºØ¤è®×)
-[19:47:39] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents ¤w­q¾\ (6 ºØ¤è®×)
-[19:47:39] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents ¤w­q¾\ (3 ºØ¤è®×)
-[19:47:39] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
-[19:47:39] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[19:47:39] [Server thread/INFO]: Running delayed init tasks
-[19:47:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1 (760)
-[19:47:39] [Server thread/ERROR]: [ViaVersion] ************************************************
-[19:47:39] [Server thread/ERROR]: [ViaVersion] You are using unsupported software and may encounter unforeseeable issues.
-[19:47:39] [Server thread/ERROR]: [ViaVersion] 
-[19:47:39] [Server thread/ERROR]: [ViaVersion] We strongly advise against using software to mess with message signing:
-[19:47:39] [Server thread/ERROR]: [ViaVersion] Instead of doing the obvious (or nothing at all), these kinds of plugins completely break chat message handling, usually then also breaking other plugins.
-[19:47:39] [Server thread/ERROR]: [ViaVersion] 
-[19:47:39] [Server thread/ERROR]: [ViaVersion] We will not provide support in case you encounter issues possibly related to this software.
-[19:47:39] [Server thread/ERROR]: [ViaVersion] ************************************************
-[19:47:39] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
-[19:47:39] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] Checking for Updates ... 
-[19:47:39] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0-SNAPSHOT
-[19:47:39] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] No new version available
-[19:47:39] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¦øªA¾¹¤wÃö³¬¡A¯Ó®É74ms
-[19:47:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
-[19:47:40] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[19:47:40] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[19:47:40] [Server thread/INFO]: Done (52.038s)! For help, type "help"
-[19:47:40] [Server thread/INFO]: Timings Reset
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[19:47:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[19:47:40] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.4.2, you're on: 4.4.1
-[19:47:41] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
-[19:47:41] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
-[19:47:41] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
-[19:47:43] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
-[19:47:43] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
-[19:47:43] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
-[19:47:44] [Craft Scheduler Thread - 13 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[19:47:49] [Craft Scheduler Thread - 15 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[19:48:00] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-131 (MC: 1.19.2) ---
-[19:48:00] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[19:48:00] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:48:00] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[19:48:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26267ms or 525 ticks behind
-[19:48:16] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:48:16] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[19:48:16] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
-[19:48:16] [Paper Watchdog Thread/ERROR]: 	Stack:
-[19:48:16] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.yield(Native Method)
-[19:48:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:147)
-[19:48:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
-[19:48:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1308)
-[19:48:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1196)
-[19:48:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305)
-[19:48:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4401/0x00000008015138a0.run(Unknown Source)
-[19:48:16] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-[19:48:16] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:48:16] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[19:48:16] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:48:24] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
-[19:48:36] [User Authenticator #1/INFO]: UUID of player Skywind5487 is 5ee1c2a5-862c-3065-a241-7ef27e7775c6
-[19:48:37] [Server thread/INFO]: Skywind5487 lost connection: Disconnected
-[19:48:39] [User Authenticator #1/INFO]: UUID of player Skywind5487 is 5ee1c2a5-862c-3065-a241-7ef27e7775c6
-[19:48:40] [Server thread/INFO]: Skywind5487 joined the game
-[19:48:40] [Server thread/INFO]: Skywind5487[/127.0.0.1:14714] logged in with entity id 253 at ([world]33.81069951457175, 72.0, -470.2404708985724)
-[19:49:38] [User Authenticator #1/INFO]: UUID of player Benny_Dioxide is 9d7e57a6-5ed2-356d-b0d6-b48adff426af
-[19:49:39] [Server thread/INFO]: Benny_Dioxide joined the game
-[19:49:39] [Server thread/INFO]: Benny_Dioxide[/36.225.206.78:56594] logged in with entity id 318 at ([world]798.6999999880791, 78.0, -377.30000001192093)
-[19:49:43] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
-[19:49:43] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
-[19:49:46] [Server thread/WARN]: Benny_Dioxide moved too quickly! -727.7779762534233,-0.5575030899837969,-95.58333375198163
-[19:49:49] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
-[19:49:49] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
-[19:50:25] [Server thread/INFO]: Benny_Dioxide issued server command: /reload
-[19:50:25] [Server thread/INFO]: Benny_Dioxide: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[19:52:21] [Server thread/INFO]: Skywind5487 issued server command: /execute run reload
-[19:52:21] [Server thread/INFO]: [Skywind5487: Reloading!]
-[19:52:22] [Worker-Main-2/ERROR]: Not a JSON object: null
-[19:52:22] [Worker-Main-2/ERROR]: Couldn't read tag list mrh_command:blocks_tag_test from mrh_command:tags/blocks/blocks_tag_test.json in data pack MRH_datapack
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[paper-1.19.2.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:62) ~[?:?]
-	at net.minecraft.tags.TagLoader.loadAndBuild(TagLoader.java:179) ~[?:?]
-	at net.minecraft.tags.TagManager.createLoader(TagManager.java:56) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:52:22] [Worker-Main-1/ERROR]: Not a JSON object: null
-[19:52:22] [Worker-Main-1/ERROR]: Couldn't read tag list mrh_command:functions_tag_test from mrh_command:tags/items/functions_tag_test.json in data pack MRH_datapack
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[paper-1.19.2.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:62) ~[?:?]
-	at net.minecraft.tags.TagLoader.loadAndBuild(TagLoader.java:179) ~[?:?]
-	at net.minecraft.tags.TagManager.createLoader(TagManager.java:56) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:52:23] [Worker-Main-1/ERROR]: Couldn't parse data file mrh_command:recipes_test from mrh_command:recipes/recipes_test.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.b(RecipeManager.java:39) ~[?:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
-	... 8 more
-[19:52:23] [Worker-Main-2/ERROR]: Couldn't parse data file mrh_command:loot_table_test from mrh_command:loot_tables/loot_table_test.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootTables.b(LootTables.java:20) ~[paper-1.19.2.jar:git-Paper-131]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
-	... 8 more
-[19:52:23] [Worker-Main-1/ERROR]: Not a JSON object: null
-[19:52:23] [Worker-Main-1/ERROR]: Couldn't read tag list mrh_command:items_tag_test from mrh_command:tags/functions/items_tag_test.json in data pack MRH_datapack
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[paper-1.19.2.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:62) ~[?:?]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$0(ServerFunctionLibrary.java:69) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:52:23] [Worker-Main-1/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
+[20:20:47] [pool-24-thread-1/WARN]: [DiscordSRV] This build of DiscordSRV is ahead of master but behind develop. Update your development build!
+[20:20:51] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
+[20:20:51] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
+[20:20:51] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents ¤w­q¾\ (2 ºØ¤è®×)
+[20:20:51] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
+[20:20:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: interactivechat [1.0.0]
+[20:20:51] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
+[20:20:51] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.6-SNAPSHOT
+[20:20:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:20:52] [Server thread/INFO]: [Geyser-Spigot] 
+[20:20:52] [Server thread/INFO]: [Geyser-Spigot] ¥¿¦b¸ü¤J Geyser ª©¥» 2.0.6-SNAPSHOT (git-master-6856922)
+[20:20:52] [Server thread/INFO]: [Geyser-Spigot] 
+[20:20:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:20:58] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser ¦b 0.0.0.0:25560 ±Ò°Ê
+[20:20:58] [Server thread/INFO]: [Geyser-Spigot] §¹¦¨ (5.266s)¡I °õ¦æ /geyser help ¨Ó¨ú±o»¡©ú¡I
+[20:20:58] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.3.0
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.8-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-70.1-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
+[20:20:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
+[20:21:01] [Server thread/INFO]: [InteractiveChat] Loading languages...
+[20:21:01] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents ¤w­q¾\ (1 ºØ¤è®×)
+[20:21:01] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents ¤w­q¾\ (6 ºØ¤è®×)
+[20:21:01] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents ¤w­q¾\ (3 ºØ¤è®×)
+[20:21:01] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
+[20:21:01] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:21:01] [Server thread/INFO]: Running delayed init tasks
+[20:21:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1 (760)
+[20:21:01] [Server thread/ERROR]: [ViaVersion] ************************************************
+[20:21:01] [Server thread/ERROR]: [ViaVersion] You are using unsupported software and may encounter unforeseeable issues.
+[20:21:01] [Server thread/ERROR]: [ViaVersion] 
+[20:21:01] [Server thread/ERROR]: [ViaVersion] We strongly advise against using software to mess with message signing:
+[20:21:01] [Server thread/ERROR]: [ViaVersion] Instead of doing the obvious (or nothing at all), these kinds of plugins completely break chat message handling, usually then also breaking other plugins.
+[20:21:01] [Server thread/ERROR]: [ViaVersion] 
+[20:21:01] [Server thread/ERROR]: [ViaVersion] We will not provide support in case you encounter issues possibly related to this software.
+[20:21:01] [Server thread/ERROR]: [ViaVersion] ************************************************
+[20:21:01] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0-SNAPSHOT
+[20:21:01] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[20:21:01] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:21:02] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
+[20:21:02] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¦øªA¾¹¤wÃö³¬¡A¯Ó®É195ms
+[20:21:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
+[20:21:02] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[20:21:02] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[20:21:02] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[20:21:02] [Server thread/INFO]: Done (45.713s)! For help, type "help"
+[20:21:02] [Server thread/INFO]: Timings Reset
+[20:21:02] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.4.2, you're on: 4.4.1
+[20:21:34] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
+[20:21:34] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
+[20:21:34] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
+[20:21:35] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
+[20:21:35] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
+[20:21:35] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
+[20:21:36] [Craft Scheduler Thread - 15 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[20:21:41] [Craft Scheduler Thread - 6 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[20:21:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
+[20:25:45] [User Authenticator #1/INFO]: UUID of player Benny_Dioxide is 9d7e57a6-5ed2-356d-b0d6-b48adff426af
+[20:25:46] [Server thread/INFO]: Benny_Dioxide joined the game
+[20:25:46] [Server thread/INFO]: Benny_Dioxide[/36.225.206.78:50208] logged in with entity id 252 at ([world]153.06132715524342, 69.0, -473.8513884655716)
+[20:26:07] [Server thread/INFO]: Benny_Dioxide issued server command: /function mrh_command:hall_to_changbin/changbin_1
+[20:26:07] [Server thread/INFO]: [Benny_Dioxide: Executed 84 commands from function 'mrh_command:hall_to_changbin/changbin_1']
+[20:27:03] [User Authenticator #2/INFO]: UUID of player Skywind5487 is 5ee1c2a5-862c-3065-a241-7ef27e7775c6
+[20:27:03] [Server thread/INFO]: Skywind5487 joined the game
+[20:27:03] [Server thread/INFO]: Skywind5487[/127.0.0.1:5923] logged in with entity id 283 at ([world]40.26692146536599, 72.0, -474.1426713345631)
+[20:27:07] [Server thread/INFO]: Benny_Dioxide issued server command: /data get entity a3529e64-c637-46b0-a249-e80851274331
+[20:27:46] [Server thread/INFO]: Benny_Dioxide issued server command: /data get entity a3529e64-c637-46b0-a249-e80851274331 NoAI
+[20:28:01] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode adventure
+[20:28:01] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Adventure Mode]
+[20:28:04] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:28:04] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:29:06] [Server thread/INFO]: Skywind5487 issued server command: /tp Benny_Dioxide
+[20:29:06] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to Benny_Dioxide]
+[20:29:14] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode adventure
+[20:29:14] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Adventure Mode]
+[20:29:15] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:29:15] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:29:17] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode adventure
+[20:29:17] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Adventure Mode]
+[20:29:38] [Server thread/INFO]: Skywind5487 issued server command: /gamemode adventure
+[20:29:38] [Server thread/INFO]: [Skywind5487: Set own game mode to Adventure Mode]
+[20:29:39] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[20:29:39] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[20:29:54] [Server thread/INFO]: Skywind5487 issued server command: /tp @s 153 89.5 -457
+[20:29:54] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to 153.500000, 89.500000, -456.500000]
+[20:29:58] [Server thread/INFO]: Skywind5487 issued server command: /gamemode adventure
+[20:29:58] [Server thread/INFO]: [Skywind5487: Set own game mode to Adventure Mode]
+[20:30:00] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[20:30:00] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[20:30:10] [Server thread/INFO]: Skywind5487 issued server command: /tp Benny_Dioxide
+[20:30:10] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to Benny_Dioxide]
+[20:30:10] [Server thread/WARN]: Skywind5487 moved too quickly! -172.7023805240811,-18.0,374.0349805259926
+[20:30:10] [Server thread/WARN]: Skywind5487 moved too quickly! -172.7023805240811,-18.0,374.0349805259926
+[20:30:26] [Server thread/INFO]: Skywind5487 issued server command: /tp @s 153 89.5 -457
+[20:30:26] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to 153.500000, 89.500000, -456.500000]
+[20:30:29] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:30:29] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:30:33] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode adventure
+[20:30:33] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Adventure Mode]
+[20:30:35] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:30:35] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:30:52] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[20:30:52] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[20:30:58] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[20:30:58] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[20:30:59] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode adventure
+[20:30:59] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Adventure Mode]
+[20:31:01] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:31:01] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:31:08] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode adventure
+[20:31:08] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Adventure Mode]
+[20:31:10] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:31:10] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:31:11] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:31:11] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:31:11] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:31:11] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:31:11] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:31:11] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:31:12] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:31:12] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:31:12] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:31:12] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:31:34] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:31:34] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:32:48] [Worker-Main-2/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
 com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
@@ -421,111 +281,11 @@ Caused by: java.io.EOFException: End of input at line 1 column 1 path $
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
 	... 8 more
-[19:52:24] [Server thread/INFO]: Loaded 7 recipes
-[19:52:24] [Server thread/WARN]: Skywind5487 moved too quickly! -7.960041745158346,3.4799841729041106,-5.110889527123163
-[19:52:24] [Server thread/ERROR]: Failed to load function mrh_command:hall_to_changbin/changbin_1
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Option 'type' isn't applicable here at position 128: ...cator,type<--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Option 'type' isn't applicable here at position 128: ...cator,type<--[HERE]
-	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:84) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[19:52:24] [Server thread/WARN]: Skywind5487 moved too quickly! -8.008609330799242,3.401794107865726,-5.076579970717148
-[19:53:16] [Server thread/INFO]: Benny_Dioxide issued server command: /function mrh_command:hall_to_changbin/hall_to_room
-[19:53:16] [Server thread/INFO]: [Benny_Dioxide: Executed 258 commands from function 'mrh_command:hall_to_changbin/hall_to_room']
-[19:57:17] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $changbin_1_dialogue
-[19:57:24] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players list $changbin_1_dialogue
-[19:57:46] [Server thread/INFO]: Skywind5487 issued server command: /function mrh_command:puiblic/default
-[19:57:46] [Server thread/INFO]: [Skywind5487: Executed 11 commands from function 'mrh_command:puiblic/default']
-[19:57:55] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players list $changbin_1_dialogue
-[19:58:05] [Server thread/INFO]: Benny_Dioxide issued server command: /execute if score $changbin_1_dialog changbin_1_dialogue matches 1
-[19:58:18] [Server thread/INFO]: Skywind5487 issued server command: /execute run reload
-[19:58:18] [Server thread/INFO]: [Skywind5487: Reloading!]
-[19:58:19] [Worker-Main-2/ERROR]: Not a JSON object: null
-[19:58:19] [Worker-Main-2/ERROR]: Couldn't read tag list mrh_command:blocks_tag_test from mrh_command:tags/blocks/blocks_tag_test.json in data pack MRH_datapack
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[paper-1.19.2.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:62) ~[?:?]
-	at net.minecraft.tags.TagLoader.loadAndBuild(TagLoader.java:179) ~[?:?]
-	at net.minecraft.tags.TagManager.createLoader(TagManager.java:56) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:58:19] [Worker-Main-1/ERROR]: Not a JSON object: null
-[19:58:19] [Worker-Main-1/ERROR]: Couldn't read tag list mrh_command:functions_tag_test from mrh_command:tags/items/functions_tag_test.json in data pack MRH_datapack
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[paper-1.19.2.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:62) ~[?:?]
-	at net.minecraft.tags.TagLoader.loadAndBuild(TagLoader.java:179) ~[?:?]
-	at net.minecraft.tags.TagManager.createLoader(TagManager.java:56) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:58:19] [Worker-Main-1/ERROR]: Couldn't parse data file mrh_command:recipes_test from mrh_command:recipes/recipes_test.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.b(RecipeManager.java:39) ~[?:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
-	... 8 more
-[19:58:19] [Worker-Main-2/ERROR]: Couldn't parse data file mrh_command:loot_table_test from mrh_command:loot_tables/loot_table_test.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootTables.b(LootTables.java:20) ~[paper-1.19.2.jar:git-Paper-131]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
-	... 8 more
-[19:58:19] [Worker-Main-2/ERROR]: Not a JSON object: null
-[19:58:19] [Worker-Main-2/ERROR]: Couldn't read tag list mrh_command:items_tag_test from mrh_command:tags/functions/items_tag_test.json in data pack MRH_datapack
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[paper-1.19.2.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar:?]
-	at net.minecraft.tags.TagLoader.load(TagLoader.java:62) ~[?:?]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$0(ServerFunctionLibrary.java:69) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:58:19] [Worker-Main-1/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
+[20:32:48] [Server thread/INFO]: Loaded 7 recipes
+[20:32:48] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: mrh_command:puiblic/default (from MRH_datapack)
+[20:32:53] [Server thread/INFO]: Benny_Dioxide issued server command: /execute as Skywind5487 run reload
+[20:32:53] [Server thread/INFO]: [Skywind5487: Reloading!]
+[20:32:53] [Worker-Main-1/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
 com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
@@ -545,37 +305,345 @@ Caused by: java.io.EOFException: End of input at line 1 column 1 path $
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
 	... 8 more
-[19:58:19] [Server thread/INFO]: Loaded 7 recipes
-[19:58:19] [Server thread/ERROR]: Failed to load function mrh_command:hall_to_changbin/changbin_1
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Option 'type' isn't applicable here at position 128: ...cator,type<--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+[20:32:53] [Server thread/INFO]: Loaded 7 recipes
+[20:32:53] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: mrh_command:puiblic/default (from MRH_datapack)
+[20:33:49] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[20:34:14] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[20:35:48] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard objectives add
+[20:35:54] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard objectives list
+[20:36:08] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard objectives remove hall_to_changbin_dialogue
+[20:36:08] [Server thread/INFO]: [Skywind5487: Removed objective [hall_to_changbin_dialogue]]
+[20:36:14] [Worker-Main-2/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
+	at net.minecraft.server.ServerAdvancementManager.b(ServerAdvancementManager.java:26) ~[?:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Option 'type' isn't applicable here at position 128: ...cator,type<--[HERE]
-	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:84) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
+	... 8 more
+[20:36:14] [Server thread/INFO]: Loaded 7 recipes
+[20:36:14] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: mrh_command:puiblic/default (from MRH_datapack)
+[20:36:44] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[20:37:01] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players set $hall_to_room_dialogue hall_to_room_dialogue 0
+[20:37:01] [Server thread/INFO]: [Skywind5487: Set [hall_to_room_dialogue] for $hall_to_room_dialogue to 0]
+[20:37:38] [Worker-Main-2/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
+	at net.minecraft.server.ServerAdvancementManager.b(ServerAdvancementManager.java:26) ~[?:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[20:00:09] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard objectives remove changbin_1_dialogue_dialogue
-[20:00:09] [Server thread/INFO]: [Skywind5487: Removed objective [changbin_1_dialogue_dialogue]]
-[20:00:23] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players list $changbin_1_dialogue
-[20:00:35] [Server thread/INFO]: Benny_Dioxide issued server command: /scoreboard players list
-[20:01:16] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players list
-[20:01:18] [Server thread/INFO]: Benny_Dioxide issued server command: /scoreboard players list $changbin_1_dialogue_dialogue
-[20:02:06] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players remove
-[20:02:24] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players reset $changbin_1_dialogue_dialogue
-[20:02:24] [Server thread/INFO]: [Skywind5487: Reset all scores for $changbin_1_dialogue_dialogue]
-[20:02:39] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players remove $changbin_1_dialogue\
-[20:02:40] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players remove $changbin_1_dialogue
-[20:03:36] [Server thread/INFO]: Benny_Dioxide issued server command: /kill $changbin_1_dialogue_dialogue
-[20:05:06] [Server thread/INFO]: Skywind5487 issued server command: /item replace entity @e[type=minecraft:vindicator,x=-19,dx=26,y=61,dy=7,z=-83,dz=14] weapon.mainhand with stone_sword
-[20:14:24] [Server thread/INFO]: Stopping the server
-[20:14:24] [Server thread/INFO]: Stopping server
-[20:14:24] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.3.0
-[20:14:24] [Server thread/ERROR]: Error occurred while disabling InteractiveChatDiscordSrvAddon v4.2.3.0 (Is it up to date?)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
+	... 8 more
+[20:37:38] [Server thread/INFO]: Loaded 7 recipes
+[20:37:38] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: mrh_command:puiblic/default (from MRH_datapack)
+[20:42:34] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[20:42:34] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[20:42:38] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:42:38] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:42:41] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[20:42:41] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[20:43:26] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:43:26] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:45:30] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:45:30] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:45:35] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:45:35] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:45:40] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode survival
+[20:45:40] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Survival Mode]
+[20:45:47] [Server thread/INFO]: Skywind5487 issued server command: /gamemode survival
+[20:45:47] [Server thread/INFO]: [Skywind5487: Set own game mode to Survival Mode]
+[20:45:53] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:45:53] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:46:10] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[20:46:10] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[20:48:21] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:48:21] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:48:21] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:48:21] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:48:22] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:48:22] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:48:24] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:48:24] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:50:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7257ms or 145 ticks behind
+[20:50:53] [Server thread/WARN]: Benny_Dioxide moved too quickly! 0.8472717027467525,3.179479498808149,9.870919158222762
+[20:51:43] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[20:52:08] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players add $hall_to_room_dialogue hall_to_room_dialogue 5
+[20:52:08] [Server thread/INFO]: [Skywind5487: Added 5 to [hall_to_room_dialogue] for $hall_to_room_dialogue (now 5)]
+[20:52:30] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[20:52:44] [Server thread/INFO]: Skywind5487 issued server command: /function mrh_command:public/default
+[20:52:44] [Server thread/INFO]: [Skywind5487: Executed 2 commands from function 'mrh_command:public/default']
+[20:52:50] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[20:55:21] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[20:55:21] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[20:55:25] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[20:55:25] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[20:55:26] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:55:26] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:55:27] [Server thread/WARN]: Benny_Dioxide moved too quickly! 13.096347417161475,-48.0,13.968460083121101
+[20:55:27] [Server thread/WARN]: Benny_Dioxide moved too quickly! 13.096347417161475,-48.0,13.968460083121101
+[20:55:27] [Server thread/WARN]: Benny_Dioxide moved too quickly! 13.096347417161475,-48.0,13.968460083121101
+[20:55:27] [Server thread/WARN]: Benny_Dioxide moved too quickly! 13.096347417161475,-48.0,13.968460083121101
+[20:55:27] [Server thread/WARN]: Benny_Dioxide moved too quickly! 13.096347417161475,-48.0,13.968460083121101
+[20:55:27] [Worker-Main-2/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
+	at net.minecraft.server.ServerAdvancementManager.b(ServerAdvancementManager.java:26) ~[?:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
+	... 8 more
+[20:55:27] [Server thread/INFO]: Loaded 7 recipes
+[20:55:27] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: mrh_command:puiblic/default (from MRH_datapack)
+[20:55:31] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:55:31] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:55:44] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[20:55:44] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[20:55:53] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[20:55:53] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[20:55:53] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:55:53] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:55:54] [Server thread/WARN]: Benny_Dioxide moved too quickly! -11.460863997089838,0.9215999984741217,-8.73536049288549
+[20:56:21] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:56:21] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:56:50] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[20:56:50] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[20:56:53] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:56:53] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:56:59] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[20:56:59] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[20:57:11] [Server thread/WARN]: Benny_Dioxide moved too quickly! 123.63408384368061,19.821180397711252,30.413626650520712
+[20:57:13] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:57:13] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:57:28] [Server thread/INFO]: Benny_Dioxide issued server command: /give @s barrier
+[20:57:28] [Server thread/INFO]: [Benny_Dioxide: Gave 1 [Barrier] to Benny_Dioxide]
+[20:58:04] [Server thread/INFO]: Benny_Dioxide issued server command: /give @s light
+[20:58:04] [Server thread/INFO]: [Benny_Dioxide: Gave 1 [Light] to Benny_Dioxide]
+[20:58:24] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:58:24] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:58:30] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:58:30] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:58:38] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:58:38] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:58:39] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:58:39] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:58:57] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:58:57] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:59:00] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:59:00] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:59:16] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:59:16] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:59:17] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:59:17] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:59:21] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:59:21] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:59:29] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:59:29] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:59:39] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:59:39] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:59:41] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:59:41] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[20:59:47] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[20:59:47] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[20:59:49] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[20:59:49] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[21:00:02] [User Authenticator #3/INFO]: UUID of player ligmads is ce1d08bf-b313-3452-bf7f-917c15021441
+[21:00:02] [Server thread/INFO]: ligmads joined the game
+[21:00:02] [Server thread/INFO]: ligmads[/114.40.40.118:56592] logged in with entity id 880 at ([world]27.87818739408835, 36.0, -477.0532661970314)
+[21:00:20] [Server thread/INFO]: Skywind5487 issued server command: /tp @a ~
+[21:00:24] [Server thread/INFO]: Skywind5487 issued server command: /tp @a Skywind5487
+[21:00:24] [Server thread/INFO]: [Skywind5487: Teleported 3 entities to Skywind5487]
+[21:00:24] [Server thread/WARN]: ligmads moved too quickly! 126.94179781709576,49.34207172465511,20.715182658986123
+[21:00:48] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:00:48] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:00:50] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:00:50] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:00:55] [Server thread/INFO]: [Not Secure] [@] ÅÜ¦^­ì¼Ë§a!©Ð¶¡!
+[21:00:56] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:00:56] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:00:57] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:00:57] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:01:35] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[21:01:46] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:01:46] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:01:48] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[21:01:48] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[21:01:48] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:01:48] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:01:50] [Server thread/INFO]: [Not Secure] [@] ÅÜ¦^­ì¼Ë§a!©Ð¶¡!
+[21:01:51] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:01:51] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:01:53] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:01:53] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:01:58] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:01:58] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:01:58] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[21:01:58] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[21:02:00] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:02:00] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:02:02] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[21:02:02] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[21:02:03] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[21:02:03] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[21:02:04] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[21:02:04] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[21:02:07] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[21:02:07] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[21:02:10] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[21:02:15] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[21:02:15] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[21:02:16] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:02:16] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:02:18] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:02:18] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:02:31] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[21:02:40] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[21:02:40] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[21:02:52] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[21:02:52] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[21:02:53] [Server thread/INFO]: Benny_Dioxide issued server command: /tp 33 23 -484
+[21:02:53] [Server thread/INFO]: [Benny_Dioxide: Teleported Benny_Dioxide to 33.500000, 23.000000, -483.500000]
+[21:02:53] [Server thread/WARN]: Benny_Dioxide moved too quickly! -121.01247447984034,-55.43002149575753,-25.36064131268097
+[21:02:56] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[21:02:56] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[21:02:58] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:02:58] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:03:08] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:03:08] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:03:11] [Server thread/INFO]: ligmads issued server command: /clone 70 79 -479
+[21:03:17] [Server thread/INFO]: ligmads issued server command: /clone 70 79 -479 80 84 -472
+[21:03:38] [Server thread/INFO]: ligmads issued server command: /clone 70 79 -479 80 84 -472 35 98 -479
+[21:03:39] [Server thread/INFO]: [ligmads: Successfully cloned 528 blocks]
+[21:03:41] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[21:03:41] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[21:03:46] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[21:03:46] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[21:03:49] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[21:03:49] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[21:03:50] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[21:03:50] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[21:03:51] [Server thread/INFO]: ligmads issued server command: /fill 35 98 -479
+[21:03:52] [Server thread/INFO]: Skywind5487 issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[21:03:54] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[21:03:54] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[21:03:57] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[21:03:57] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[21:04:00] [Server thread/INFO]: ligmads issued server command: /fill 35 98 -479 45 98 -472 air
+[21:04:00] [Server thread/INFO]: [ligmads: Successfully filled 82 blocks]
+[21:04:12] [Server thread/INFO]: ligmads issued server command: /fill 35 98 -479 45 103 -472 air
+[21:04:12] [Server thread/INFO]: [ligmads: Successfully filled 282 blocks]
+[21:04:27] [Server thread/INFO]: ligmads issued server command: /clone 70 79 -479 80 84 -472 35 79 -479
+[21:04:27] [Server thread/INFO]: [ligmads: Successfully cloned 528 blocks]
+[21:04:29] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:04:29] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:04:32] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:04:32] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:04:36] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:04:36] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:04:39] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:04:39] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:04:53] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:04:53] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:05:00] [Server thread/INFO]: ligmads issued server command: /clone 70 79 -479 80 84 -472 35 79 -479
+[21:05:00] [Server thread/INFO]: [ligmads: Successfully cloned 528 blocks]
+[21:05:06] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:05:06] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:05:11] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:05:11] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:05:13] [Server thread/INFO]: ligmads issued server command: /clone 70 79 -479 80 84 -472 35 79 -479
+[21:05:13] [Server thread/INFO]: [ligmads: Successfully cloned 528 blocks]
+[21:05:18] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:05:18] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:05:35] [Server thread/INFO]: Benny_Dioxide issued server command: /tp 56 18 -529
+[21:05:35] [Server thread/INFO]: [Benny_Dioxide: Teleported Benny_Dioxide to 56.500000, 18.000000, -528.500000]
+[21:05:41] [Server thread/INFO]: ligmads issued server command: /tp ligmads Skywind5487
+[21:05:41] [Server thread/INFO]: [ligmads: Teleported ligmads to Skywind5487]
+[21:05:52] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[21:05:52] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[21:05:54] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[21:05:54] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[21:06:19] [Server thread/INFO]: Benny_Dioxide issued server command: /execute if score $hall_to_room_dialogue hall_to_room_dialogue matches 43
+[21:06:35] [Server thread/INFO]: Benny_Dioxide issued server command: /scoreboard players get $hall_to_room_dialogue hall_to_room_dialogue
+[21:07:07] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:07:07] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:07:10] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:07:10] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:07:18] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
+[21:07:18] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
+[21:07:18] [Server thread/INFO]: Benny_Dioxide issued server command: /tp 38 81 -476
+[21:07:18] [Server thread/INFO]: [Benny_Dioxide: Teleported Benny_Dioxide to 38.500000, 81.000000, -475.500000]
+[21:07:29] [Server thread/INFO]: ligmads issued server command: /tp ligmads Skywind5487
+[21:07:29] [Server thread/INFO]: [ligmads: Teleported ligmads to Skywind5487]
+[21:07:31] [Server thread/INFO]: ligmads issued server command: /gamemode creative
+[21:07:31] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
+[21:09:10] [Server thread/INFO]: Benny_Dioxide issued server command: /schedule
+[21:09:39] [Server thread/INFO]: Benny_Dioxide issued server command: /schedule function mrh_command:hall_to_changbin/hall_to_room 0.1
+[21:10:00] [Server thread/INFO]: Benny_Dioxide issued server command: /schedule function mrh_command:hall_to_changbin/hall_to_room 0.1s
+[21:10:00] [Server thread/INFO]: [Benny_Dioxide: Scheduled function 'mrh_command:hall_to_changbin/hall_to_room' in 2 ticks at gametime 34437210]
+[21:10:48] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[21:10:48] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[21:10:49] [Server thread/INFO]: Benny_Dioxide issued server command: /tp Skywind5487 @s
+[21:10:49] [Server thread/INFO]: [Benny_Dioxide: Teleported Skywind5487 to Benny_Dioxide]
+[21:10:49] [Server thread/WARN]: Skywind5487 moved too quickly! 1.2009033127151838,52.44426469993787,-7.142272034500763
+[21:10:55] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[21:10:55] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[21:10:59] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[21:10:59] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[21:11:03] [Server thread/INFO]: Skywind5487 issued server command: /gamemode survival
+[21:11:03] [Server thread/INFO]: [Skywind5487: Set own game mode to Survival Mode]
+[21:11:05] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[21:11:05] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[21:11:09] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[21:11:09] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[21:11:13] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[21:11:13] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[21:12:33] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
+[21:12:33] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
+[21:12:37] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
+[21:12:37] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
+[21:13:27] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode spectator
+[21:13:27] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Spectator Mode]
+[21:13:29] [Server thread/INFO]: Benny_Dioxide issued server command: /gamemode creative
+[21:13:29] [Server thread/INFO]: [Benny_Dioxide: Set own game mode to Creative Mode]
+[21:19:09] [Server thread/INFO]: Stopping the server
+[21:19:09] [Server thread/INFO]: Stopping server
+[21:19:09] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.3.0
+[21:19:09] [Server thread/ERROR]: Error occurred while disabling InteractiveChatDiscordSrvAddon v4.2.3.0 (Is it up to date?)
 java.lang.NoClassDefFoundError: github/scarsz/discordsrv/dependencies/jda/api/hooks/ListenerAdapter
 	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:1012) ~[?:?]
@@ -601,39 +669,41 @@ Caused by: java.lang.ClassNotFoundException: github.scarsz.discordsrv.dependenci
 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
 	... 19 more
-[20:14:24] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.6-SNAPSHOT
-[20:14:24] [Server thread/INFO]: [Geyser-Spigot] ¥¿¦bÃö³¬ Geyser¡C
-[20:14:24] [Server thread/INFO]: [Geyser-Spigot] Geyser ¦¨¥\Ãö³¬¡C
-[20:14:24] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.3.0
-[20:14:24] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
-[20:14:24] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
-[20:14:24] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
-[20:14:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
-[20:14:24] [WebSocketConnectReadThread-91/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[20:14:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:14:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
-[20:14:24] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
-[20:14:24] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b598
-[20:14:24] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.1
-[20:14:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[20:14:24] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[20:14:24] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.1
-[20:14:24] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[20:14:24] [Server thread/INFO]: [NoEncryption] Disabling NoEncryption v4.2
-[20:14:24] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[20:14:24] [Server thread/INFO]: Saving players
-[20:14:24] [Server thread/INFO]: Skywind5487 lost connection: Server closed
-[20:14:24] [Server thread/INFO]: Skywind5487 left the game
-[20:14:24] [Server thread/INFO]: Benny_Dioxide lost connection: Server closed
-[20:14:24] [Server thread/INFO]: Benny_Dioxide left the game
-[20:14:24] [Server thread/INFO]: Saving worlds
-[20:14:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:14:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:14:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:14:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:14:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:14:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:14:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:14:31] [Server thread/INFO]: Flushing Chunk IO
-[20:14:31] [Server thread/INFO]: Closing Thread Pool
-[20:14:31] [Server thread/INFO]: Closing Server
+[21:19:09] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.6-SNAPSHOT
+[21:19:09] [Server thread/INFO]: [Geyser-Spigot] ¥¿¦bÃö³¬ Geyser¡C
+[21:19:09] [Server thread/INFO]: [Geyser-Spigot] Geyser ¦¨¥\Ãö³¬¡C
+[21:19:09] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.3.0
+[21:19:09] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
+[21:19:09] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
+[21:19:09] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+[21:19:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[21:19:10] [WebSocketConnectReadThread-88/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[21:19:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:19:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[21:19:10] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
+[21:19:10] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b598
+[21:19:10] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.1
+[21:19:10] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[21:19:10] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[21:19:10] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.1
+[21:19:10] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[21:19:10] [Server thread/INFO]: [NoEncryption] Disabling NoEncryption v4.2
+[21:19:10] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[21:19:10] [Server thread/INFO]: Saving players
+[21:19:10] [Server thread/INFO]: Benny_Dioxide lost connection: Server closed
+[21:19:10] [Server thread/INFO]: Benny_Dioxide left the game
+[21:19:10] [Server thread/INFO]: Skywind5487 lost connection: Server closed
+[21:19:10] [Server thread/INFO]: Skywind5487 left the game
+[21:19:10] [Server thread/INFO]: ligmads lost connection: Server closed
+[21:19:10] [Server thread/INFO]: ligmads left the game
+[21:19:10] [Server thread/INFO]: Saving worlds
+[21:19:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:19:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:19:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:19:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:19:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:19:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:19:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:19:19] [Server thread/INFO]: Flushing Chunk IO
+[21:19:19] [Server thread/INFO]: Closing Thread Pool
+[21:19:19] [Server thread/INFO]: Closing Server
