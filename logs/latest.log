@@ -1,548 +1,170 @@
-[20:17:45] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[20:17:45] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[20:17:45] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[20:17:47] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[20:17:50] [ServerMain/INFO]: Building unoptimized datafixer
-[20:17:52] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:17:55] [Worker-Main-1/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
-	at net.minecraft.server.ServerAdvancementManager.b(ServerAdvancementManager.java:26) ~[?:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+[00:01:01] [Craft Scheduler Thread - 207 - InteractiveChatDiscordSrvAddon/WARN]: [InteractiveChatDiscordSRVAddon] Plugin InteractiveChatDiscordSrvAddon v4.2.3.0 generated an exception while executing task 30
+java.lang.NullPointerException: Cannot invoke "com.loohp.interactivechat.libs.org.json.simple.JSONObject.get(Object)" because "this.data" is null
+	at com.loohp.interactivechatdiscordsrvaddon.resources.ResourceDownloadManager.ensureData(ResourceDownloadManager.java:84) ~[InteractiveChatDiscordSrvAddon-4.2.3.0.jar:?]
+	at com.loohp.interactivechatdiscordsrvaddon.resources.ResourceDownloadManager.downloadExtras(ResourceDownloadManager.java:187) ~[InteractiveChatDiscordSrvAddon-4.2.3.0.jar:?]
+	at com.loohp.interactivechatdiscordsrvaddon.AssetsDownloader.loadExtras(AssetsDownloader.java:161) ~[InteractiveChatDiscordSrvAddon-4.2.3.0.jar:?]
+	at com.loohp.interactivechatdiscordsrvaddon.InteractiveChatDiscordSrvAddon.lambda$onEnable$4(InteractiveChatDiscordSrvAddon.java:330) ~[InteractiveChatDiscordSrvAddon-4.2.3.0.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.2.jar:git-Paper-131]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.2.jar:git-Paper-131]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.2.jar:?]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
-	... 8 more
-[20:17:55] [ServerMain/INFO]: Loaded 7 recipes
-[20:17:56] [ServerMain/ERROR]: Couldn't load tag minecraft:load as it is missing following references: mrh_command:puiblic/default (from MRH_datapack)
-[20:17:59] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[20:17:59] [Server thread/INFO]: Loading properties
-[20:17:59] [Server thread/INFO]: This server is running Paper version git-Paper-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2da891f)
-[20:18:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:18:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:18:00] [Server thread/INFO]: Default game type: SURVIVAL
-[20:18:00] [Server thread/INFO]: Generating keypair
-[20:18:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:18:01] [Server thread/INFO]: Using default channel type
-[20:18:01] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[20:18:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:18:05] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[20:18:05] [Server thread/INFO]: [NoEncryption] Loading NoEncryption v4.2
-[20:18:05] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.1
-[20:18:05] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.1 is now loaded, injecting!
-[20:18:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[20:18:05] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[20:18:05] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[20:18:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:18:06] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[20:18:06] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[20:18:06] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[20:18:06] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[20:18:06] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[20:18:06] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
-[20:18:06] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[20:18:07] [Server thread/INFO]: [floodgate] ¯Ó®É 1,024 ms ¨Ó±Ò°Ê Floodgate
-[20:18:07] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[20:18:07] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.1
-[20:18:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:18:07] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[20:18:07] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[20:18:07] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[20:18:07] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[20:18:08] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[20:18:08] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[20:18:08] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[20:18:08] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[20:18:08] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[20:18:08] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[20:18:08] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[20:18:08] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
-[20:18:08] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b598
-[20:18:08] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
-[20:18:10] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
-[20:18:10] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[20:18:10] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[20:18:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3d14d95f]
-[20:18:11] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0-SNAPSHOT
-[20:18:11] [Server thread/INFO]: [InteractiveChat] Loading InteractiveChat v4.2.3.0
-[20:18:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.6-SNAPSHOT
-[20:18:11] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading InteractiveChatDiscordSrvAddon v4.2.3.0
-[20:18:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:18:12] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[20:18:12] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[20:18:12] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[20:18:12] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b598
-[20:18:12] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
-[20:18:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[20:18:12] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:18:12] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[20:18:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[20:18:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:18:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:18:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:18:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:18:14] [Server thread/INFO]: Preparing level "world"
-[20:18:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:18:17] [Server thread/INFO]: Time elapsed: 609 ms
-[20:18:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:18:17] [Server thread/INFO]: Time elapsed: 217 ms
-[20:18:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:18:18] [Server thread/INFO]: Time elapsed: 233 ms
-[20:18:18] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[20:18:18] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.1 which is not a depend or softdepend of this plugin.
-[20:18:18] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:18:18] [Server thread/INFO]: [NoEncryption] Enabling NoEncryption v4.2
-[20:18:18] [Server thread/INFO]: [NoEncryption] Your server is running version 1.19.2-R0.1-SNAPSHOT.
-[20:18:18] [Server thread/INFO]: [NoEncryption] Compatibility successful!
-[20:18:18] [Server thread/INFO]: [NoEncryption] If you used /reload to update NoEncryption, your players need to disconnect and join back.
-[20:18:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.1
-[20:18:18] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[20:18:19] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.1
-[20:18:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[20:18:19] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
-[20:18:20] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:18:20] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0-SNAPSHOT
-[20:18:20] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
-[20:18:21] [Thread-10/WARN]: [floodgate] 
-**********************************
-* The prefix you entered in your Floodgate config (_) could lead to username conflicts!
-* Should a Java player join with the username _Notch, and a Bedrock player join as Notch (who will be given the name _Notch), unwanted results will happen!
-* We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
-**********************************
-[20:18:30] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
-[20:18:31] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
-[20:18:31] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents ¤w­q¾\ (2 ºØ¤è®×)
-[20:18:31] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
-[20:18:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: interactivechat [1.0.0]
-[20:18:31] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
-[20:18:31] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.6-SNAPSHOT
-[20:18:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:18:32] [Server thread/INFO]: [Geyser-Spigot] 
-[20:18:32] [Server thread/INFO]: [Geyser-Spigot] ¥¿¦b¸ü¤J Geyser ª©¥» 2.0.6-SNAPSHOT (git-master-6856922)
-[20:18:32] [Server thread/INFO]: [Geyser-Spigot] 
-[20:18:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:18:34] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[20:18:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[20:18:35] [pool-25-thread-1/WARN]: [DiscordSRV] This build of DiscordSRV is ahead of master but behind develop. Update your development build!
-[20:18:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] ¤w§ä¨ì¦øªA¾¹ G:MC-history(879224141989957642)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:·s¤H¥²¬Ý-¤p´úÅç(1006904882357346416)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:·s¤H¥²¬Ý-³W«h»P¨­¤À²Õ(1002125938202513548)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:¼v¤ù¤À¨É(879378838289797140)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ÂIºq°Ï(880450726680211588)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:new-member(879224865993932822)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:¶¢²á(879224141989957645)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:©w´Á·|Ä³°O¿ý(1002791202229329991)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:¤£©w´Á·|Ä³¬ö¿ý(1003544429702955069)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-sever(1006235675504427038)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:­«­n®y¼Ð¬ö¿ý(1003655591450910751)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:¤å®×¤å«C¥«¶°(1002126420887220316)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:«Ø¿vÃÀ³N®aÃÀ´Y(1002126761678602271)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:«ü¥O½X¥dÀs±_¥Þ(1002126421617029190)
-[20:18:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] ¿ù»~ªº±±¨î¥xÀW¹DID, ¨Ã¥¼Âà°e±±¨î¥x¿é¥X¡C
-[20:18:38] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser ¦b 0.0.0.0:25560 ±Ò°Ê
-[20:18:38] [Server thread/INFO]: [Geyser-Spigot] §¹¦¨ (6.301s)¡I °õ¦æ /geyser help ¨Ó¨ú±o»¡©ú¡I
-[20:18:39] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.3.0
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.8-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-70.1-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
-[20:18:40] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
-[20:18:43] [Server thread/INFO]: [InteractiveChat] Loading languages...
-[20:18:43] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents ¤w­q¾\ (1 ºØ¤è®×)
-[20:18:43] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents ¤w­q¾\ (6 ºØ¤è®×)
-[20:18:43] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents ¤w­q¾\ (3 ºØ¤è®×)
-[20:18:43] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
-[20:18:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] ±Ò¥Î¹_¨ú PlaceholderAPI
-[20:18:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:18:44] [Server thread/INFO]: Running delayed init tasks
-[20:18:44] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1 (760)
-[20:18:44] [Server thread/ERROR]: [ViaVersion] ************************************************
-[20:18:44] [Server thread/ERROR]: [ViaVersion] You are using unsupported software and may encounter unforeseeable issues.
-[20:18:44] [Server thread/ERROR]: [ViaVersion] 
-[20:18:44] [Server thread/ERROR]: [ViaVersion] We strongly advise against using software to mess with message signing:
-[20:18:44] [Server thread/ERROR]: [ViaVersion] Instead of doing the obvious (or nothing at all), these kinds of plugins completely break chat message handling, usually then also breaking other plugins.
-[20:18:44] [Server thread/ERROR]: [ViaVersion] 
-[20:18:44] [Server thread/ERROR]: [ViaVersion] We will not provide support in case you encounter issues possibly related to this software.
-[20:18:44] [Server thread/ERROR]: [ViaVersion] ************************************************
-[20:18:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: discordsrv [1.26.0-SNAPSHOT]
-[20:18:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
-[20:18:44] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[20:18:44] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:18:44] [Server thread/INFO]: Done (44.776s)! For help, type "help"
-[20:18:44] [Server thread/INFO]: Timings Reset
-[20:18:44] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
-[20:18:44] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[20:18:44] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[20:18:44] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
-[20:18:45] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.4.2, you're on: 4.4.1
-[20:18:46] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
-[20:18:46] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
-[20:18:46] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
-[20:18:48] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
-[20:18:48] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
-[20:18:48] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
-[20:18:49] [Craft Scheduler Thread - 15 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[20:18:54] [Craft Scheduler Thread - 13 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[20:18:59] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
-[20:24:31] [User Authenticator #1/INFO]: UUID of player ligmads is ce1d08bf-b313-3452-bf7f-917c15021441
-[20:24:31] [Server thread/INFO]: ligmads joined the game
-[20:24:31] [Server thread/INFO]: ligmads[/114.40.40.118:60579] logged in with entity id 252 at ([world]835.7169560392954, 25.0, -369.5446204511549)
-[20:26:16] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:26:16] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:26:49] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:26:49] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:26:51] [User Authenticator #2/INFO]: UUID of player Skywind5487 is 5ee1c2a5-862c-3065-a241-7ef27e7775c6
-[20:26:51] [Server thread/INFO]: Skywind5487 joined the game
-[20:26:51] [Server thread/INFO]: Skywind5487[/127.0.0.1:2890] logged in with entity id 314 at ([world]837.6999999880791, 23.0, -354.38394283986423)
-[20:28:01] [Server thread/INFO]: ligmads issued server command: /give ligmads minecraft:debug_stick
-[20:28:01] [Server thread/INFO]: [ligmads: Gave 1 [Debug Stick] to ligmads]
-[20:28:46] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:28:46] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:28:49] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:28:49] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:28:50] [Server thread/INFO]: ligmads issued server command: /gamemode adventure
-[20:28:50] [Server thread/INFO]: [ligmads: Set own game mode to Adventure Mode]
-[20:29:40] [Server thread/INFO]: Skywind5487 issued server command: /tp ligmads
-[20:29:40] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to ligmads]
-[20:29:40] [Server thread/WARN]: Skywind5487 moved too quickly! -42.76651318760639,50.756586783918195,-30.03724820960332
-[20:29:40] [Server thread/WARN]: Skywind5487 moved too quickly! -42.76651318760639,50.756586783918195,-30.03724820960332
-[20:29:45] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:29:45] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:29:48] [Server thread/INFO]: Skywind5487 issued server command: /tp ligmads
-[20:29:48] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to ligmads]
-[20:29:59] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
-[20:29:59] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
-[20:30:05] [Server thread/INFO]: ligmads issued server command: /give ligmads minecraft:basalt
-[20:30:05] [Server thread/INFO]: [ligmads: Gave 1 [Basalt] to ligmads]
-[20:30:05] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
-[20:30:05] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
-[20:30:10] [Server thread/INFO]: ligmads issued server command: /give ligmads minecraft:barrier
-[20:30:10] [Server thread/INFO]: [ligmads: Gave 1 [Barrier] to ligmads]
-[20:31:05] [Server thread/INFO]: ligmads issued server command: /kill db075ad5-cb8f-4641-9f66-c27ae415d46b
-[20:31:05] [Server thread/INFO]: [ligmads: Killed Warden]
-[20:31:40] [Server thread/INFO]: ligmads issued server command: /summon minecraft:wither
-[20:31:40] [Server thread/INFO]: [ligmads: Summoned new Wither]
-[20:32:10] [Async Chat Thread - #0/INFO]: [Not Secure] <ligmads> 787.5
-[20:33:29] [Async Chat Thread - #2/INFO]: [Not Secure] <ligmads> 787.0 76 -383.5
-[20:35:36] [Server thread/INFO]: ligmads issued server command: /summon minecraft:villager ~ ~ ~ {NoAI:1}
-[20:35:36] [Server thread/INFO]: [ligmads: Summoned new Villager]
-[20:35:48] [Server thread/INFO]: ligmads issued server command: /summon minecraft:villager ~ ~ ~ {NoAI:1}
-[20:35:48] [Server thread/INFO]: [ligmads: Summoned new Villager]
-[20:35:50] [Server thread/INFO]: ligmads issued server command: /summon minecraft:villager ~ ~ ~ {NoAI:1}
-[20:35:50] [Server thread/INFO]: [ligmads: Summoned new Villager]
-[20:36:07] [Server thread/INFO]: ligmads issued server command: /teleport b61a892b-97cd-4efb-a335-19a2b5fba06b
-[20:36:07] [Server thread/INFO]: [ligmads: Teleported ligmads to Villager]
-[20:36:21] [Server thread/INFO]: ligmads issued server command: /teleport b61a892b-97cd-4efb-a335-19a2b5fba06b 789.5 76 -387.5
-[20:36:21] [Server thread/INFO]: [ligmads: Teleported Villager to 789.500000, 76.000000, -387.500000]
-[20:36:28] [Server thread/INFO]: ligmads issued server command: /teleport b61a892b-97cd-4efb-a335-19a2b5fba06b 789.5 76 -387.5 0 0
-[20:36:28] [Server thread/INFO]: [ligmads: Teleported Villager to 789.500000, 76.000000, -387.500000]
-[20:36:32] [Server thread/INFO]: ligmads issued server command: /teleport b61a892b-97cd-4efb-a335-19a2b5fba06b 789.5 76 -387.5 90 0
-[20:36:32] [Server thread/INFO]: [ligmads: Teleported Villager to 789.500000, 76.000000, -387.500000]
-[20:36:35] [Server thread/INFO]: ligmads issued server command: /teleport b61a892b-97cd-4efb-a335-19a2b5fba06b 789.5 76 -387.5 20 0
-[20:36:35] [Server thread/INFO]: [ligmads: Teleported Villager to 789.500000, 76.000000, -387.500000]
-[20:36:44] [Server thread/INFO]: ligmads issued server command: /teleport b61a892b-97cd-4efb-a335-19a2b5fba06b 789.5 76 -387.5 40 0
-[20:36:44] [Server thread/INFO]: [ligmads: Teleported Villager to 789.500000, 76.000000, -387.500000]
-[20:36:47] [Server thread/INFO]: ligmads issued server command: /teleport b61a892b-97cd-4efb-a335-19a2b5fba06b 789.5 76 -387.5 30 0
-[20:36:47] [Server thread/INFO]: [ligmads: Teleported Villager to 789.500000, 76.000000, -387.500000]
-[20:37:00] [Server thread/INFO]: ligmads issued server command: /teleport b61a892b-97cd-4efb-a335-19a2b5fba06b 789.5 76 -387.5 30 0
-[20:37:00] [Server thread/INFO]: [ligmads: Teleported Villager to 789.500000, 76.000000, -387.500000]
-[20:37:26] [Server thread/INFO]: ligmads issued server command: /teleport 38ccb161-2c6b-4445-a28c-77733912218d 790.5 76 -386.5 0 0
-[20:37:26] [Server thread/INFO]: [ligmads: Teleported Villager to 790.500000, 76.000000, -386.500000]
-[20:37:30] [Server thread/INFO]: ligmads issued server command: /teleport 38ccb161-2c6b-4445-a28c-77733912218d 790.5 76 -386.5 40 0
-[20:37:30] [Server thread/INFO]: [ligmads: Teleported Villager to 790.500000, 76.000000, -386.500000]
-[20:37:47] [Server thread/INFO]: ligmads issued server command: /teleport 38ccb161-2c6b-4445-a28c-77733912218d 790.5 76 -386.5 30 0
-[20:37:47] [Server thread/INFO]: [ligmads: Teleported Villager to 790.500000, 76.000000, -386.500000]
-[20:41:25] [Server thread/INFO]: ligmads issued server command: /summon minecraft:vindicator 783.5 76 -385.5
-[20:41:25] [Server thread/INFO]: [ligmads: Summoned new Vindicator]
-[20:41:34] [Server thread/INFO]: ligmads issued server command: /summon minecraft:vindicator 783.5 76 -384.5
-[20:41:34] [Server thread/INFO]: [ligmads: Summoned new Vindicator]
-[20:41:37] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:41:37] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:41:39] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:41:39] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:45:04] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:45:04] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:45:37] [Server thread/INFO]: ligmads issued server command: /kill
-[20:45:37] [Server thread/INFO]: ligmads fell out of the world
-[20:45:37] [Server thread/INFO]: [ligmads: Killed ligmads]
-[20:45:37] [Craft Scheduler Thread - 49 - DiscordSRV/ERROR]: [DiscordSRV] Your AvatarUrl does not contain the {username} placeholder even though this server is using offline UUIDs.
-[20:45:37] [Craft Scheduler Thread - 49 - DiscordSRV/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
-[20:45:37] [Craft Scheduler Thread - 49 - DiscordSRV/ERROR]: [DiscordSRV] You should set your AvatarUrl to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
-[20:45:49] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:45:49] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:46:44] [Server thread/INFO]: ligmads issued server command: /clone -57 8 -63
-[20:46:48] [Server thread/INFO]: ligmads issued server command: /clone -57 8 -63 -55 8 -62
-[20:46:51] [Server thread/INFO]: ligmads issued server command: /tp ligmads Skywind5487
-[20:46:51] [Server thread/INFO]: [ligmads: Teleported ligmads to Skywind5487]
-[20:46:51] [Server thread/WARN]: ligmads moved too quickly! 838.5867249839191,66.76590569422271,-334.4505066575175
-[20:46:56] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:46:56] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:46:59] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:46:59] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:47:17] [Server thread/INFO]: ligmads issued server command: /clone -57 8 -63 -55 8 -62 816 23 -382
-[20:47:17] [Server thread/INFO]: [ligmads: Successfully cloned 6 blocks]
-[20:47:25] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:47:25] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:47:47] [Async Chat Thread - #4/INFO]: [Not Secure] <ligmads> x=778
-[20:48:09] [Async Chat Thread - #4/INFO]: [Not Secure] <ligmads> x=778 dx=20
-[20:48:21] [Async Chat Thread - #4/INFO]: [Not Secure] <ligmads> x=778 dx=20 z=-390
-[20:49:13] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:49:13] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:49:17] [Async Chat Thread - #4/INFO]: [Not Secure] <ligmads> @e[x=778,dx=20,y=75,dy=12,z=-390,dz=20]
-[20:50:53] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:50:53] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:51:01] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:51:01] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:51:22] [Server thread/INFO]: ligmads issued server command: /team add moster
-[20:51:22] [Server thread/INFO]: [ligmads: Created team [moster]]
-[20:51:34] [Server thread/INFO]: ligmads issued server command: /team join moster @e[type=minecraft:villager,distance=..12]
-[20:51:34] [Server thread/INFO]: [ligmads: Added 3 members to team [moster]]
-[20:51:58] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:51:58] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:53:33] [Server thread/INFO]: ligmads issued server command: /summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"{\"text\":\"¥±§Q­C\",\"color\":\"red\"}",CustomNameVisible:1b}
-[20:53:33] [Server thread/INFO]: [ligmads: Summoned new ¥±§Q­C]
-[20:53:48] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:53:48] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:53:55] [Server thread/INFO]: ligmads issued server command: /kill a7592e47-02e6-4875-807c-d4a31f03d03f
-[20:53:55] [Server thread/INFO]: [ligmads: Killed ¥±§Q­C]
-[20:54:00] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:54:00] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:54:13] [Server thread/INFO]: ligmads issued server command: /summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"{\"text\":\"¥±§Q­C\",\"color\":\"red\"}",CustomNameVisible:1b}
-[20:54:13] [Server thread/INFO]: [ligmads: Summoned new ¥±§Q­C]
-[20:54:36] [Server thread/INFO]: ligmads issued server command: /summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"{\"text\":\"¤pªÜ\",\"color\":\"blue\"}",CustomNameVisible:1b}
-[20:54:36] [Server thread/INFO]: [ligmads: Summoned new ¤pªÜ]
-[20:54:52] [Server thread/INFO]: ligmads issued server command: /summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"{\"text\":\"¤p±d\",\"color\":\"lime\"}",CustomNameVisible:1b}
-[20:54:52] [Server thread/INFO]: [ligmads: Summoned new ¤p±d]
-[20:55:07] [Server thread/INFO]: ligmads issued server command: /kill @e[distance=..1,type=minecraft:armor_stand]
-[20:55:10] [Server thread/INFO]: ligmads issued server command: /kill @e[distance=..1,type=minecraft:armor_stand]
-[20:55:10] [Server thread/INFO]: [ligmads: Killed ¤p±d]
-[20:55:17] [Server thread/INFO]: ligmads issued server command: /summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"{\"text\":\"¤p±d\",\"color\":\"green\"}",CustomNameVisible:1b}
-[20:55:17] [Server thread/INFO]: [ligmads: Summoned new ¤p±d]
-[20:55:23] [Server thread/INFO]: ligmads issued server command: /kill @e[distance=..1,type=minecraft:armor_stand]
-[20:55:23] [Server thread/INFO]: [ligmads: Killed ¤p±d]
-[20:55:29] [Server thread/INFO]: ligmads issued server command: /summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:"{\"text\":\"¤p±d\",\"color\":\"green\"}",CustomNameVisible:1b}
-[20:55:29] [Server thread/INFO]: [ligmads: Summoned new ¤p±d]
-[20:55:34] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:55:34] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:56:51] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[20:56:51] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[20:56:56] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[20:56:56] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[20:59:22] [Server thread/INFO]: ligmads lost connection: Disconnected
-[20:59:22] [Server thread/INFO]: ligmads left the game
-[21:00:05] [User Authenticator #3/INFO]: UUID of player ligmads is ce1d08bf-b313-3452-bf7f-917c15021441
-[21:00:05] [Server thread/INFO]: ligmads joined the game
-[21:00:05] [Server thread/INFO]: ligmads[/114.40.40.118:57117] logged in with entity id 657 at ([world]817.4606946819272, 23.0, -378.0491877871242)
-[21:00:11] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[21:00:11] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[21:00:17] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[21:00:17] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[21:01:14] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager -3.00 63 -71.5 0.3 1 0.3 0 7
-[21:01:37] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager -787.00 76 -387.3 0.3 1 0.3 0 7
-[21:01:42] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 787.00 76 -387.3 0.3 1 0.3 0 7
-[21:01:42] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:01:49] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 787.00 76 -387 0.3 1 0.3 0 7
-[21:01:49] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:01:54] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 787.00 76 -387.5 0.3 1 0.3 0 7
-[21:01:54] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:01:57] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 787.00 77 -387.5 0.3 1 0.3 0 7
-[21:01:57] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:02:02] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 787.00 77 -387.5 0.3 0.5 0.3 0 7
-[21:02:02] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:02:04] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 787.00 77 -387.5 0.3 0.5 0.3 0 7
-[21:02:04] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:02:05] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 787.00 77 -387.5 0.3 0.5 0.3 0 7
-[21:02:05] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:02:21] [Server thread/INFO]: Skywind5487 issued server command: /tp ligmads
-[21:02:21] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to ligmads]
-[21:03:04] [Server thread/INFO]: ligmads issued server command: /execute as @a at @a run playsound minecraft:entity.villager.ambient master @a -0.5 63.5 -73.5
-[21:03:10] [Server thread/INFO]: ligmads issued server command: /execute as @a at @a run playsound minecraft:entity.villager.ambient master @a -0.5 63.5 -73.5
-[21:03:28] [Server thread/INFO]: ligmads issued server command: /execute as @a at @a run playsound minecraft:entity.villager.ambient master @a 787.00 77 -387.5
-[21:03:28] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.villager.ambient to 2 players]
-[21:03:28] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.villager.ambient to 2 players]
-[21:03:28] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.ambient to 2 players]
-[21:03:28] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.ambient to 2 players]
-[21:03:46] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.ambient master @a 787.00 77 -387.5
-[21:03:46] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.ambient to 2 players]
-[21:04:08] [Server thread/INFO]: ligmads issued server command: /execute as b61a892b-97cd-4efb-a335-19a2b5fba06b at @s run playsound minecraft:entity.villager.ambient master @a 787.00 77 -387.5
-[21:04:08] [Server thread/INFO]: [Villager: Played sound minecraft:entity.villager.ambient to 2 players]
-[21:05:13] [Async Chat Thread - #6/INFO]: [Not Secure] <ligmads> 789.5 76 -387.5 ¤p´T
-[21:05:27] [Async Chat Thread - #6/INFO]: [Not Secure] <ligmads> 790.5 76 -386.5 ¤p±d
-[21:07:47] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 787.00 77 -387.5 0.3 0.5 0.3 0 7
-[21:07:47] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:08:29] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 783.00 77 -385.5 0.3 0.5 -1 0 7
-[21:08:29] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:08:34] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 783.00 77 -385.5 0.3 0.5 -1 0 17
-[21:08:34] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:08:36] [Server thread/INFO]: ligmads issued server command: /particle minecraft:angry_villager 783.00 77 -385.5 0.3 0.5 -1 0 17
-[21:08:36] [Server thread/INFO]: [ligmads: Displaying particle minecraft:angry_villager]
-[21:09:03] [Server thread/INFO]: ligmads issued server command: /execute as @a at @a run playsound minecraft:entity.villager.no master @a
-[21:09:03] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.villager.no to 2 players]
-[21:09:03] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.villager.no to 2 players]
-[21:09:03] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.no to 2 players]
-[21:09:03] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.no to 2 players]
-[21:09:05] [Server thread/INFO]: ligmads issued server command: /execute as @a at @a run playsound minecraft:entity.villager.no master @a
-[21:09:05] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.villager.no to 2 players]
-[21:09:05] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.villager.no to 2 players]
-[21:09:05] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.no to 2 players]
-[21:09:05] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.no to 2 players]
-[21:09:15] [Server thread/INFO]: ligmads issued server command: /execute as @a at @a run playsound minecraft:entity.vindicator.ambient master @a
-[21:09:15] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.vindicator.ambient to 2 players]
-[21:09:15] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.vindicator.ambient to 2 players]
-[21:09:15] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.vindicator.ambient to 2 players]
-[21:09:15] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.vindicator.ambient to 2 players]
-[21:09:25] [Server thread/INFO]: ligmads issued server command: /give ligmads minecraft:command_block
-[21:09:25] [Server thread/INFO]: [ligmads: Gave 1 [Command Block] to ligmads]
-[21:10:17] [Server thread/INFO]: ligmads issued server command: /execute as @a at @a run playsound minecraft:entity.villager.hurt master @a
-[21:10:17] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.villager.hurt to 2 players]
-[21:10:17] [Server thread/INFO]: [Skywind5487: Played sound minecraft:entity.villager.hurt to 2 players]
-[21:10:17] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.hurt to 2 players]
-[21:10:17] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.hurt to 2 players]
-[21:10:27] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.hurt master @a
-[21:10:27] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.hurt to 2 players]
-[21:10:33] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.celebrate master @a
-[21:10:33] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.celebrate to 2 players]
-[21:10:36] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.celebrate master @a
-[21:10:36] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.celebrate to 2 players]
-[21:10:37] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.celebrate master @a
-[21:10:37] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.celebrate to 2 players]
-[21:10:39] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.celebrate master @a
-[21:10:39] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.celebrate to 2 players]
-[21:10:40] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.celebrate master @a
-[21:10:40] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.celebrate to 2 players]
-[21:10:41] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.celebrate master @a
-[21:10:41] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.celebrate to 2 players]
-[21:10:51] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.hurt master @a
-[21:10:51] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.hurt to 2 players]
-[21:10:53] [Server thread/INFO]: ligmads issued server command: /playsound minecraft:entity.villager.hurt master @a
-[21:10:53] [Server thread/INFO]: [ligmads: Played sound minecraft:entity.villager.hurt to 2 players]
-[21:11:41] [Server thread/INFO]: ligmads issued server command: /fill 785 76 -384
-[21:11:56] [Server thread/INFO]: ligmads issued server command: /fill 785 76 -384 788 78 -382 air replace minecraft:barrier
-[21:11:56] [Server thread/INFO]: [ligmads: Successfully filled 10 blocks]
-[21:12:17] [Server thread/INFO]: ligmads issued server command: /fill 785 76 -384 788 78 -382 air replace minecraft:barrier
-[21:12:17] [Server thread/INFO]: [ligmads: Successfully filled 8 blocks]
-[21:12:55] [Server thread/INFO]: ligmads issued server command: /fill 784 76 -385
-[21:12:57] [Server thread/INFO]: ligmads issued server command: /fill 784 76 -385 784 76 -386 air
-[21:12:57] [Server thread/INFO]: [ligmads: Successfully filled 2 blocks]
-[21:13:17] [Server thread/INFO]: ligmads issued server command: /fill 785 76 -384
-[21:13:23] [Server thread/INFO]: ligmads issued server command: /fill 785 76 -384 785 76 -383 air
-[21:13:23] [Server thread/INFO]: [ligmads: Successfully filled 2 blocks]
-[21:13:40] [Server thread/INFO]: ligmads issued server command: /fill 785 76 -384 788 78 -382 air replace minecraft:barrier
-[21:13:40] [Server thread/INFO]: [ligmads: Successfully filled 8 blocks]
-[21:14:34] [Server thread/INFO]: ligmads issued server command: /spawnpoint ligmads 787 76 -383
-[21:14:34] [Server thread/INFO]: [ligmads: Set spawn point to 787, 76, -383 [0.0] in minecraft:overworld for ligmads]
-[21:17:26] [Server thread/INFO]: ligmads issued server command: /function reload:reload
-[21:17:27] [Worker-Main-2/ERROR]: Couldn't parse data file mrh_command:advamcements_test from mrh_command:advancements/advamcements_test.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:427) ~[?:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:464) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.prepare(SimpleJsonResourceReloadListener.java:44) ~[?:?]
-	at net.minecraft.server.ServerAdvancementManager.b(ServerAdvancementManager.java:26) ~[?:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:10) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:425) ~[?:?]
-	... 8 more
-[21:17:28] [Server thread/INFO]: Loaded 7 recipes
-[21:17:28] [Server thread/ERROR]: Failed to load function mrh_command:hall_to_changbin/changbin_1
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 8: Expected end of options at position 157: ...=-83,dz=14<--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 8: Expected end of options at position 157: ...=-83,dz=14<--[HERE]
-	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:84) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[21:17:28] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: mrh_command:puiblic/default (from MRH_datapack)
-[21:17:30] [Server thread/INFO]: [ligmads: Executed 10 commands from function 'reload:reload']
-[21:17:56] [Server thread/INFO]: Skywind5487 issued server command: /gamemode spectator
-[21:17:56] [Server thread/INFO]: [Skywind5487: Set own game mode to Spectator Mode]
-[21:18:00] [Server thread/INFO]: ligmads issued server command: /gamemode spectator
-[21:18:00] [Server thread/INFO]: [ligmads: Set own game mode to Spectator Mode]
-[21:18:02] [Server thread/INFO]: Skywind5487 issued server command: /gamemode creative
-[21:18:02] [Server thread/INFO]: [Skywind5487: Set own game mode to Creative Mode]
-[21:18:03] [Server thread/INFO]: ligmads issued server command: /gamemode creative
-[21:18:03] [Server thread/INFO]: [ligmads: Set own game mode to Creative Mode]
-[21:18:46] [Server thread/INFO]: Stopping the server
-[21:18:46] [Server thread/INFO]: Stopping server
-[21:18:46] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.3.0
-[21:18:46] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
-[21:18:46] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.6-SNAPSHOT
-[21:18:46] [Server thread/INFO]: [Geyser-Spigot] ¥¿¦bÃö³¬ Geyser¡C
-[21:18:46] [Server thread/INFO]: [Geyser-Spigot] Geyser ¦¨¥\Ãö³¬¡C
-[21:18:46] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.3.0
-[21:18:46] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
-[21:18:46] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
-[21:18:46] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
-[21:18:46] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0-SNAPSHOT
-[21:18:46] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¤wÀx¦s¤w³sµ²±b¸¹¡A¯Ó®É16ms
-[21:18:46] [WebSocketConnectReadThread-400/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[21:18:46] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¦øªA¾¹¤wÃö³¬¡A¯Ó®É252ms
-[21:18:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
-[21:18:46] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:18:46] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
-[21:18:46] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
-[21:18:46] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b598
-[21:18:46] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.1
-[21:18:46] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[21:18:46] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[21:18:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.1
-[21:18:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[21:18:46] [Server thread/INFO]: [NoEncryption] Disabling NoEncryption v4.2
-[21:18:46] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[21:18:46] [Server thread/INFO]: Saving players
-[21:18:46] [Server thread/INFO]: Skywind5487 lost connection: Server closed
-[21:18:46] [Server thread/INFO]: Skywind5487 left the game
-[21:18:46] [Server thread/INFO]: ligmads lost connection: Server closed
-[21:18:46] [Server thread/INFO]: ligmads left the game
-[21:18:46] [Server thread/INFO]: Saving worlds
-[21:18:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:18:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:18:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:18:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:18:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:18:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:18:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:18:56] [Server thread/INFO]: Flushing Chunk IO
-[21:18:56] [Server thread/INFO]: Closing Thread Pool
-[21:18:56] [Server thread/INFO]: Closing Server
+[00:01:02] [Server thread/INFO]: Wolfieflys issued server command: //replace stone oak_log
+[00:01:07] [Server thread/INFO]: Wolfieflys issued server command: //replace stone oak_log
+[00:01:14] [Server thread/INFO]: Wolfieflys issued server command: //replace stone oak_log
+[00:02:22] [Server thread/INFO]: LingYueee issued server command: //set grass_block
+[00:02:35] [Server thread/INFO]: Wolfieflys issued server command: //set 0
+[00:05:23] [Server thread/INFO]: Wolfieflys issued server command: //set stone
+[00:05:29] [Server thread/INFO]: Wolfieflys issued server command: //set stone
+[00:06:31] [Server thread/INFO]: Wolfieflys issued server command: //set stone
+[00:06:39] [Server thread/INFO]: Wolfieflys issued server command: //set stone
+[00:07:46] [Server thread/INFO]: Wolfieflys issued server command: //copy
+[00:07:51] [Server thread/INFO]: Wolfieflys issued server command: //replace stone
+[00:08:04] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:08:09] [Server thread/INFO]: Wolfieflys issued server command: //paste
+[00:10:54] [Server thread/INFO]: Wolfieflys issued server command: //set oak_log
+[00:11:21] [Server thread/INFO]: LingYueee issued server command: //move 1
+[00:12:19] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: '?'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661357539
+[00:12:19] [Async Chat Thread - #37/INFO]: [Not Secure] <Wolfieflys> ?
+[00:12:23] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: 'hello'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661357543
+[00:12:23] [Async Chat Thread - #37/INFO]: [Not Secure] <Wolfieflys> hello
+[00:12:26] [Server thread/INFO]: Wolfieflys issued server command: //set oak_log
+[00:12:31] [Server thread/INFO]: Wolfieflys issued server command: //set oak_log
+[00:12:46] [Server thread/INFO]: Wolfieflys issued server command: //set stone
+[00:12:55] [Server thread/INFO]: LingYueee issued server command: /tp Wolfieflys LingYueee
+[00:12:55] [Server thread/INFO]: [LingYueee: Teleported Wolfieflys to LingYueee]
+[00:13:10] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: 'ok'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661357590
+[00:13:10] [Async Chat Thread - #37/INFO]: [Not Secure] <Wolfieflys> ok
+[00:13:33] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: 'ok'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661357613
+[00:13:33] [Async Chat Thread - #37/INFO]: [Not Secure] <Wolfieflys> ok
+[00:14:04] [Server thread/INFO]: LingYueee issued server command: //br sphere air 5
+[00:14:09] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:14:17] [Server thread/INFO]: Wolfieflys issued server command: /br s dirt 4
+[00:14:25] [Server thread/INFO]: LingYueee issued server command: //undo
+[00:14:27] [Server thread/INFO]: LingYueee issued server command: //undo
+[00:14:28] [Server thread/INFO]: LingYueee issued server command: //undo
+[00:14:30] [Server thread/INFO]: LingYueee issued server command: //undo
+[00:14:34] [Server thread/INFO]: LingYueee issued server command: //br sphere air 3
+[00:14:44] [Server thread/INFO]: LingYueee issued server command: //undo
+[00:14:51] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: '¾ð­n¥ý¬å±¼¶Ü'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661357691
+[00:14:51] [Async Chat Thread - #39/INFO]: [Not Secure] <Wolfieflys> ¾ð­n¥ý¬å±¼¶Ü
+[00:15:25] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: 'ok'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661357725
+[00:15:25] [Async Chat Thread - #39/INFO]: [Not Secure] <Wolfieflys> ok
+[00:15:44] [Server thread/INFO]: Wolfieflys issued server command: /br s air 3
+[00:16:09] [Server thread/INFO]: Skywind5487 issued server command: /tp LingYueee
+[00:16:09] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to LingYueee]
+[00:16:09] [Server thread/WARN]: Skywind5487 moved too quickly! 46.093142142660554,21.49867994873881,-83.50275821758635
+[00:16:17] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:16:21] [Server thread/INFO]: Wolfieflys issued server command: /br s dirt 3
+[00:16:27] [Server thread/INFO]: Wolfieflys issued server command: /br s dirt 2
+[00:16:28] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:17:31] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:18:08] [Server thread/INFO]: Wolfieflys issued server command: /br s water 3
+[00:18:14] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:18:22] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:18:28] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:18:32] [Server thread/INFO]: Wolfieflys issued server command: /br s water 2
+[00:18:40] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:21:03] [Server thread/INFO]: Wolfieflys issued server command: /br s sand 2
+[00:25:47] [Server thread/INFO]: Wolfieflys issued server command: /br s dirt 2
+[00:25:48] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:27:08] [Server thread/INFO]: Skywind5487 issued server command: /tp LingYueee
+[00:27:08] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to LingYueee]
+[00:28:56] [Server thread/INFO]: Wolfieflys issued server command: /br s dirt 3
+[00:28:59] [Server thread/INFO]: Skywind5487 issued server command: /tp LingYueee
+[00:28:59] [Server thread/INFO]: [Skywind5487: Teleported Skywind5487 to LingYueee]
+[00:28:59] [Server thread/WARN]: Skywind5487 moved too quickly! 21.195850859754387,-9.694253282538824,16.723089639827208
+[00:28:59] [Server thread/WARN]: Skywind5487 moved too quickly! 21.195850859754387,-9.694253282538824,16.723089639827208
+[00:29:32] [Server thread/INFO]: Wolfieflys issued server command: /br s stone 3
+[00:31:15] [Server thread/INFO]: Wolfieflys issued server command: /br s grass_block 2
+[00:31:42] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:32:03] [Server thread/INFO]: Wolfieflys issued server command: //wand
+[00:32:13] [Server thread/INFO]: Wolfieflys issued server command: //set 0
+[00:33:00] [Server thread/INFO]: Wolfieflys issued server command: //set grass_block
+[00:33:55] [Server thread/INFO]: Wolfieflys issued server command: //replace stone grass_block
+[00:35:43] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:36:19] [Server thread/INFO]: Wolfieflys issued server command: //set 0
+[00:37:27] [Server thread/INFO]: LingYueee issued server command: /tp Wolfieflys
+[00:37:27] [Server thread/INFO]: [LingYueee: Teleported LingYueee to Wolfieflys]
+[00:38:02] [Server thread/INFO]: Wolfieflys issued server command: /tp LingYueee
+[00:38:02] [Server thread/INFO]: [Wolfieflys: Teleported Wolfieflys to LingYueee]
+[00:38:12] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: 'ok'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661359092
+[00:38:12] [Async Chat Thread - #41/INFO]: [Not Secure] <Wolfieflys> ok
+[00:39:27] [Server thread/INFO]: Wolfieflys issued server command: //br s water 2
+[00:40:40] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-131 (MC: 1.19.2) ---
+[00:40:40] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[00:40:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:40:40] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:40:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:40:40] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:40:40] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: true | State: RUNNABLE
+[00:40:40] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.io.FileOutputStream.open0(Native Method)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:120)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.saveddata.SavedData.save(SavedData.java:36)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.lambda$save$0(DimensionDataStorage.java:158)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.WorldPersistentData$$Lambda$9141/0x00000008026dd098.accept(Unknown Source)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.HashMap.forEach(HashMap.java:1421)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.save(DimensionDataStorage.java:156)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveLevelData(ServerLevel.java:1304)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1236)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1453)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4393/0x0000000801517d00.run(Unknown Source)
+[00:40:53] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[00:40:53] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:40:53] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:40:53] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:40:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23275ms or 465 ticks behind
+[00:40:57] [Server thread/INFO]: Wolfieflys issued server command: //undo 3
+[00:41:00] [Server thread/INFO]: Wolfieflys issued server command: //undo 3
+[00:41:02] [Server thread/INFO]: Wolfieflys issued server command: //undo 3
+[00:43:19] [Server thread/INFO]: Wolfieflys issued server command: //replace air water
+[00:43:26] [Server thread/INFO]: Wolfieflys issued server command: //replace water air
+[00:43:29] [Server thread/INFO]: Wolfieflys issued server command: //replace water air
+[00:43:32] [Server thread/INFO]: Wolfieflys issued server command: //replace air water
+[00:44:15] [Server thread/INFO]: Wolfieflys issued server command: //replace water air
+[00:44:16] [Server thread/INFO]: Wolfieflys issued server command: //replace air water
+[00:44:47] [Server thread/INFO]: LingYueee issued server command: /give LingYueee minecraft:debug_stick
+[00:44:47] [Server thread/INFO]: [LingYueee: Gave 1 [Debug Stick] to LingYueee]
+[00:45:44] [Server thread/INFO]: LingYueee issued server command: //stack 1
+[00:46:27] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:49:37] [Server thread/INFO]: LingYueee lost connection: Disconnected
+[00:49:37] [Server thread/INFO]: LingYueee left the game
+[00:50:35] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: '?'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661359835
+[00:50:35] [Async Chat Thread - #43/INFO]: [Not Secure] <Wolfieflys> ?
+[00:51:08] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:52:24] [Server thread/INFO]: Wolfieflys issued server command: /br s stone 3
+[00:53:03] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:54:12] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: 'yes'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661360052
+[00:54:12] [Async Chat Thread - #45/INFO]: [Not Secure] <Wolfieflys> yes
+[00:56:44] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:56:50] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[00:58:07] [Server thread/INFO]: Wolfieflys issued server command: /br s grass_block 3
+[00:59:46] [Server thread/INFO]: Wolfieflys issued server command: //undo 3
+[01:00:00] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[01:00:29] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[01:07:38] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[01:07:40] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[01:07:50] [Server thread/INFO]: Wolfieflys issued server command: /br s grass_block 2
+[01:10:11] [Server thread/INFO]: Wolfieflys issued server command: //replace stone grass_block
+[01:11:54] [Server thread/INFO]: Wolfieflys issued server command: //undo
+[01:14:39] [Server thread/INFO]: Wolfieflys issued server command: //replace stone grass_block
+[01:15:19] [Server thread/INFO]: Wolfieflys issued server command: //replace stone grass_block
+[01:15:27] [Server thread/INFO]: Wolfieflys issued server command: //replace stone grass_block
+[01:15:47] [Server thread/INFO]: Wolfieflys issued server command: //replace stone grass_block
+[01:16:40] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: 'ok im going to sleep now'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661361400
+[01:16:40] [Async Chat Thread - #47/INFO]: [Not Secure] <Wolfieflys> ok im going to sleep now
+[01:16:48] [Netty Server IO #2/WARN]: Wolfieflys sent expired chat: 'good night!'. Is the client/server system time unsynchronized? c: 1661347423 s: 1661361408
+[01:16:48] [Async Chat Thread - #47/INFO]: [Not Secure] <Wolfieflys> good night!
+[01:16:52] [Server thread/INFO]: Wolfieflys lost connection: Disconnected
+[01:16:52] [Server thread/INFO]: Wolfieflys left the game
+[01:20:06] [Server thread/INFO]: Stopping server
+[01:20:06] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
+[01:20:06] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+[01:20:06] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
