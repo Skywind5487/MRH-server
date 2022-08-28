@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "ea09a44b-ef6b-3d03-8ad7-3cbb0daff5b6",
+    "name": "monkey_Reachrs",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "25f3ede6-4b1a-3492-b11e-ad189c7022f5",
     "name": "Wolfieflys",
     "level": 4,
