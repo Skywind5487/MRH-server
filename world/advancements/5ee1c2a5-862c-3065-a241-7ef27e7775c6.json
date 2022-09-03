@@ -419,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2022-09-03 14:57:07 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-06-05 19:33:12 +0800"
@@ -464,6 +470,12 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2022-08-01 22:10:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2022-09-03 20:52:24 +0800"
     },
     "done": true
   },
@@ -1215,6 +1227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2022-09-03 20:52:24 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2022-08-29 16:44:50 +0800"
@@ -1493,6 +1511,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2022-09-03 16:21:47 +0800",
       "minecraft:deep_ocean": "2022-08-20 16:59:37 +0800",
       "minecraft:birch_forest": "2022-08-01 19:04:40 +0800",
       "minecraft:windswept_hills": "2022-08-11 21:37:24 +0800",
@@ -1851,6 +1870,12 @@
   "minecraft:recipes/decorations/green_bed": {
     "criteria": {
       "has_green_wool": "2022-08-24 23:32:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2022-09-03 20:52:24 +0800"
     },
     "done": true
   },
@@ -3537,6 +3562,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2022-08-09 15:39:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2022-09-03 16:25:58 +0800"
     },
     "done": true
   },
