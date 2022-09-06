@@ -1,1006 +1,231 @@
-[11:01:51] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[11:01:51] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[11:01:51] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[11:01:53] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[11:01:57] [ServerMain/INFO]: Building unoptimized datafixer
-[11:02:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:02:07] [ServerMain/INFO]: Loaded 7 recipes
-[11:02:11] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[11:02:11] [Server thread/INFO]: Loading properties
-[11:02:11] [Server thread/INFO]: This server is running Paper version git-Paper-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2da891f)
-[11:02:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:02:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:02:12] [Server thread/INFO]: Default game type: SURVIVAL
-[11:02:12] [Server thread/INFO]: Generating keypair
-[11:02:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:02:12] [Server thread/INFO]: Using default channel type
-[11:02:12] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[11:02:12] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:02:17] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[11:02:17] [Server thread/INFO]: [NoEncryption] Loading NoEncryption v4.2
-[11:02:17] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.1
-[11:02:17] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.1 is now loaded, injecting!
-[11:02:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[11:02:18] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[11:02:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[11:02:18] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[11:02:18] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[11:02:18] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[11:02:18] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[11:02:18] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[11:02:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[11:02:18] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
-[11:02:18] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[11:02:19] [Server thread/INFO]: [floodgate] 耗時 875 ms 來啟動 Floodgate
-[11:02:19] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[11:02:19] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.1
-[11:02:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[11:02:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[11:02:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[11:02:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[11:02:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[11:02:19] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[11:02:19] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[11:02:20] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[11:02:20] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[11:02:20] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[11:02:20] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[11:02:20] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[11:02:20] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
-[11:02:20] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b598
-[11:02:20] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
-[11:02:22] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
-[11:02:22] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[11:02:22] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[11:02:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@fcc243]
-[11:02:23] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0-SNAPSHOT
-[11:02:23] [Server thread/INFO]: [InteractiveChat] Loading InteractiveChat v4.2.3.0
-[11:02:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.6-SNAPSHOT
-[11:02:23] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading InteractiveChatDiscordSrvAddon v4.2.3.0
-[11:02:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:02:23] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[11:02:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[11:02:23] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[11:02:23] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b598
-[11:02:24] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
-[11:02:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[11:02:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[11:02:24] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[11:02:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[11:02:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:02:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:02:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:02:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:02:26] [Server thread/INFO]: Preparing level "world"
-[11:02:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:02:29] [Server thread/INFO]: Time elapsed: 687 ms
-[11:02:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:02:29] [Server thread/INFO]: Time elapsed: 166 ms
-[11:02:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:02:30] [Server thread/INFO]: Time elapsed: 255 ms
-[11:02:30] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[11:02:30] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.1 which is not a depend or softdepend of this plugin.
-[11:02:30] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[11:02:30] [Server thread/INFO]: [NoEncryption] Enabling NoEncryption v4.2
-[11:02:30] [Server thread/INFO]: [NoEncryption] Your server is running version 1.19.2-R0.1-SNAPSHOT.
-[11:02:30] [Server thread/INFO]: [NoEncryption] Compatibility successful!
-[11:02:30] [Server thread/INFO]: [NoEncryption] If you used /reload to update NoEncryption, your players need to disconnect and join back.
-[11:02:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.1
-[11:02:30] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[11:02:31] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.1
-[11:02:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[11:02:31] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
-[11:02:31] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[11:02:32] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0-SNAPSHOT
-[11:02:32] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
-[11:02:33] [Thread-10/WARN]: [floodgate] 
+[19:32:00] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[19:32:00] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[19:32:00] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[19:32:02] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[19:32:06] [ServerMain/INFO]: Building unoptimized datafixer
+[19:32:09] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:32:13] [ServerMain/INFO]: Loaded 7 recipes
+[19:32:17] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[19:32:17] [Server thread/INFO]: Loading properties
+[19:32:17] [Server thread/INFO]: This server is running Paper version git-Paper-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2da891f)
+[19:32:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:32:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:32:18] [Server thread/INFO]: Default game type: SURVIVAL
+[19:32:18] [Server thread/INFO]: Generating keypair
+[19:32:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:32:18] [Server thread/INFO]: Using default channel type
+[19:32:18] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[19:32:18] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:32:23] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[19:32:23] [Server thread/INFO]: [NoEncryption] Loading NoEncryption v4.2
+[19:32:23] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.1
+[19:32:23] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.1 is now loaded, injecting!
+[19:32:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[19:32:23] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[19:32:24] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[19:32:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:32:24] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[19:32:24] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[19:32:24] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[19:32:24] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[19:32:24] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[19:32:24] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[19:32:24] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[19:32:25] [Server thread/INFO]: [floodgate] 耗時 1,090 ms 來啟動 Floodgate
+[19:32:25] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:32:25] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.1
+[19:32:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:32:25] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[19:32:25] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[19:32:26] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[19:32:26] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[19:32:26] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[19:32:26] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[19:32:26] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[19:32:26] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[19:32:26] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[19:32:26] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[19:32:26] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[19:32:26] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[19:32:26] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b598
+[19:32:26] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
+[19:32:29] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[19:32:29] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[19:32:29] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[19:32:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@99e6896]
+[19:32:30] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0-SNAPSHOT
+[19:32:30] [Server thread/INFO]: [InteractiveChat] Loading InteractiveChat v4.2.3.0
+[19:32:30] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.6-SNAPSHOT
+[19:32:30] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading InteractiveChatDiscordSrvAddon v4.2.3.0
+[19:32:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:32:30] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:32:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:32:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:32:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b598
+[19:32:30] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[19:32:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[19:32:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:32:31] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[19:32:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[19:32:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:32:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:32:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:32:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:32:33] [Server thread/INFO]: Preparing level "world"
+[19:32:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:32:36] [Server thread/INFO]: Time elapsed: 686 ms
+[19:32:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:32:36] [Server thread/INFO]: Time elapsed: 192 ms
+[19:32:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:32:36] [Server thread/INFO]: Time elapsed: 136 ms
+[19:32:36] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[19:32:36] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.1 which is not a depend or softdepend of this plugin.
+[19:32:37] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:32:37] [Server thread/INFO]: [NoEncryption] Enabling NoEncryption v4.2
+[19:32:37] [Server thread/INFO]: [NoEncryption] Your server is running version 1.19.2-R0.1-SNAPSHOT.
+[19:32:37] [Server thread/INFO]: [NoEncryption] Compatibility successful!
+[19:32:37] [Server thread/INFO]: [NoEncryption] If you used /reload to update NoEncryption, your players need to disconnect and join back.
+[19:32:37] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.1
+[19:32:37] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[19:32:38] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.1
+[19:32:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[19:32:38] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[19:32:39] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:32:39] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0-SNAPSHOT
+[19:32:39] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
+[19:32:40] [Thread-10/WARN]: [floodgate] 
 **********************************
 * The prefix you entered in your Floodgate config (_) could lead to username conflicts!
 * Should a Java player join with the username _Notch, and a Bedrock player join as Notch (who will be given the name _Notch), unwanted results will happen!
 * We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
 **********************************
-[11:02:42] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
-[11:02:43] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
-[11:02:43] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents 已訂閱 (2 種方案)
-[11:02:43] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
-[11:02:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: interactivechat [1.0.0]
-[11:02:43] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
-[11:02:43] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.6-SNAPSHOT
-[11:02:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:02:44] [Server thread/INFO]: [Geyser-Spigot] 
-[11:02:44] [Server thread/INFO]: [Geyser-Spigot] 正在載入 Geyser 版本 2.0.6-SNAPSHOT (git-master-6856922)
-[11:02:44] [Server thread/INFO]: [Geyser-Spigot] 
-[11:02:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:02:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[11:02:47] [pool-25-thread-1/WARN]: [DiscordSRV] This build of DiscordSRV is ahead of master but behind develop. Update your development build!
-[11:02:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[11:02:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 已找到伺服器 G:MC-history(879224141989957642)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:新人必看-小測驗(1006904882357346416)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:新人必看-規則與身分組(1002125938202513548)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:影片分享(879378838289797140)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:點歌區(880450726680211588)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:new-member(879224865993932822)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:閒聊(879224141989957645)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:定期會議記錄(1002791202229329991)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:不定期會議紀錄(1003544429702955069)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-sever(1006235675504427038)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:重要座標紀錄(1003655591450910751)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:文案文青市集(1002126420887220316)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:建築藝術家藝廊(1002126761678602271)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:指令碼卡龍巢穴(1002126421617029190)
-[11:02:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 錯誤的控制台頻道ID, 並未轉送控制台輸出。
-[11:02:50] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser 在 0.0.0.0:25560 啟動
-[11:02:50] [Server thread/INFO]: [Geyser-Spigot] 完成 (6.629s)！ 執行 /geyser help 來取得說明！
-[11:02:50] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.3.0
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.8-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-70.1-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
-[11:02:51] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
-[11:02:57] [Server thread/INFO]: [InteractiveChat] Loading languages...
-[11:02:57] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents 已訂閱 (1 種方案)
-[11:02:58] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents 已訂閱 (6 種方案)
-[11:02:58] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents 已訂閱 (3 種方案)
-[11:02:58] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
-[11:02:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 啟用鉤取 PlaceholderAPI
-[11:02:58] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[11:02:58] [Server thread/INFO]: Running delayed init tasks
-[11:02:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1 (760)
-[11:02:58] [Server thread/ERROR]: [ViaVersion] ************************************************
-[11:02:58] [Server thread/ERROR]: [ViaVersion] You are using unsupported software and may encounter unforeseeable issues.
-[11:02:58] [Server thread/ERROR]: [ViaVersion] 
-[11:02:58] [Server thread/ERROR]: [ViaVersion] We strongly advise against using software to mess with message signing:
-[11:02:58] [Server thread/ERROR]: [ViaVersion] Instead of doing the obvious (or nothing at all), these kinds of plugins completely break chat message handling, usually then also breaking other plugins.
-[11:02:58] [Server thread/ERROR]: [ViaVersion] 
-[11:02:58] [Server thread/ERROR]: [ViaVersion] We will not provide support in case you encounter issues possibly related to this software.
-[11:02:58] [Server thread/ERROR]: [ViaVersion] ************************************************
-[11:02:58] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
-[11:02:58] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
-[11:02:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: discordsrv [1.26.0-SNAPSHOT]
-[11:02:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
-[11:02:58] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[11:02:58] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[11:02:58] [Server thread/INFO]: Done (47.104s)! For help, type "help"
-[11:02:58] [Server thread/INFO]: Timings Reset
-[11:02:58] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[11:02:58] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[11:02:59] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.4.2, you're on: 4.4.1
-[11:02:59] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
-[11:02:59] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
-[11:02:59] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
-[11:03:01] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
-[11:03:01] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
-[11:03:01] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
-[11:03:04] [Craft Scheduler Thread - 15 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[11:03:09] [Craft Scheduler Thread - 12 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[11:03:10] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
-[17:02:58] [Craft Scheduler Thread - 574 - Vault/INFO]: [Vault] Checking for Updates ... 
-[17:02:58] [Craft Scheduler Thread - 574 - Vault/INFO]: [Vault] No new version available
-[17:14:40] [WebSocketConnectReadThread-109/INFO]: [Geyser-Spigot] Got disconnected from the skin uploader: pings have to be at least 10 seconds apart
-[18:17:32] [User Authenticator #1/INFO]: UUID of player watermelon1117 is 8023e569-1655-33fe-bb0f-4b9e8ef455de
-[18:17:33] [Server thread/INFO]: watermelon1117 joined the game
-[18:17:33] [Server thread/INFO]: watermelon1117[/203.204.105.41:12419] logged in with entity id 332 at ([world]70.05988631505821, -11.0, -387.23463753115067)
-[18:17:33] [Craft Scheduler Thread - 685 - DiscordSRV/ERROR]: [DiscordSRV] Your AvatarUrl does not contain the {username} placeholder even though this server is using offline UUIDs.
-[18:17:33] [Craft Scheduler Thread - 685 - DiscordSRV/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
-[18:17:33] [Craft Scheduler Thread - 685 - DiscordSRV/ERROR]: [DiscordSRV] You should set your AvatarUrl to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
-[18:17:56] [Server thread/INFO]: watermelon1117 issued server command: /gamemode spectator
-[18:17:56] [Server thread/INFO]: [watermelon1117: Set own game mode to Spectator Mode]
-[18:17:58] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/376, uuid='3d99c8ea-3b13-499a-b3c8-1deffa70b40b', l='ServerLevel[world]', x=129.41, y=96.25, z=-654.63, cpos=[8, -41], tl=779696, v=false]
-[18:17:58] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/377, uuid='6439bd76-da40-442a-9c02-145dee6c2852', l='ServerLevel[world]', x=152.20, y=93.00, z=-650.20, cpos=[9, -41], tl=819811, v=false]
-[18:18:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-131 (MC: 1.19.2) ---
-[18:18:18] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[18:18:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:18] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk wait task info below: 
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] 22,-26 in 'world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Load Task - Chunk task: class:com.destroystokyo.paper.io.chunk.ChunkLoadTask, for world 'world', (22,-26), hashcode:1189237201, priority: 0
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Save Task - none
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Neighbors: 
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   23,-26 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Neighbors: 
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     23,-25 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Neighbors: 
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-24 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-24 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-23 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-23 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-25 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-26 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       24,-24 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-24 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-24 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-23 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-23 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-25 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-23 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-25 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-24 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       24,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-26 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       24,-26 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-26 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-26 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-27 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-27 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-27 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     22,-27 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Neighbors: 
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-26 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-27 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-26 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-28 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-29 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-27 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-27 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-29 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-28 in world:
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-28 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     23,-27 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     24,-27 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     22,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     24,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     22,-26 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     24,-26 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   23,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   22,-27 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   23,-27 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   22,-25 in world (CIRCULAR)
-[18:18:18] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[18:18:18] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[18:18:18] [Paper Watchdog Thread/ERROR]: Entity UUID: 8023e569-1655-33fe-bb0f-4b9e8ef455de
-[18:18:18] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (353.40401742426195, 117.89209327893636, -404.1565884653303)
-[18:18:18] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
-[18:18:18] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[353.104017412341, 117.89209327893636, -404.4565884772512] -> [353.7040174361829, 119.69209323125264, -403.85658845340936]
-[18:18:18] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 538
-[18:18:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:18] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[18:18:18] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: TIMED_WAITING
-[18:18:18] [Paper Watchdog Thread/ERROR]: 	Stack:
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.2.1/jdk.internal.misc.Unsafe.park(Native Method)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.2.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:661)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:503)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:443)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.absMoveTo(Entity.java:1846)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.absMoveTo(Entity.java:1830)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1559)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:29)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$PosRot.handle(ServerboundMovePlayerPacket.java:88)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$9524/0x000000080168aa40.run(Unknown Source)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1360)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:185)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1337)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1330)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1464)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4385/0x00000008014e2f30.run(Unknown Source)
-[18:18:18] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
-[18:18:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[18:18:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-131 (MC: 1.19.2) ---
-[18:18:23] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[18:18:23] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:23] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk wait task info below: 
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] 22,-26 in 'world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Load Task - Chunk task: class:com.destroystokyo.paper.io.chunk.ChunkLoadTask, for world 'world', (22,-26), hashcode:1189237201, priority: 0
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Save Task - none
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Neighbors: 
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   23,-26 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Neighbors: 
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     23,-25 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Neighbors: 
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-24 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-24 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-23 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-23 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-25 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-26 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       24,-24 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-24 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-24 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-23 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-23 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-25 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-23 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-25 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-24 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       24,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-26 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       24,-26 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-26 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-26 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-27 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-27 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-27 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     22,-27 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Neighbors: 
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-26 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-27 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-26 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-28 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-29 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-27 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-27 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-29 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-28 in world:
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-28 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     23,-27 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     24,-27 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     22,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     24,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     22,-26 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     24,-26 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   23,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   22,-27 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   23,-27 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   22,-25 in world (CIRCULAR)
-[18:18:23] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[18:18:23] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[18:18:23] [Paper Watchdog Thread/ERROR]: Entity UUID: 8023e569-1655-33fe-bb0f-4b9e8ef455de
-[18:18:23] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (353.40401742426195, 117.89209327893636, -404.1565884653303)
-[18:18:23] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
-[18:18:23] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[353.104017412341, 117.89209327893636, -404.4565884772512] -> [353.7040174361829, 119.69209323125264, -403.85658845340936]
-[18:18:23] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 538
-[18:18:23] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:23] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[18:18:23] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: TIMED_WAITING
-[18:18:23] [Paper Watchdog Thread/ERROR]: 	Stack:
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.2.1/jdk.internal.misc.Unsafe.park(Native Method)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.2.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:661)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:503)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:443)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.absMoveTo(Entity.java:1846)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.absMoveTo(Entity.java:1830)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1559)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:29)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$PosRot.handle(ServerboundMovePlayerPacket.java:88)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$9524/0x000000080168aa40.run(Unknown Source)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1360)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:185)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1337)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1330)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1464)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4385/0x00000008014e2f30.run(Unknown Source)
-[18:18:23] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
-[18:18:23] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[18:18:23] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-131 (MC: 1.19.2) ---
-[18:18:28] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[18:18:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:28] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk wait task info below: 
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] 22,-26 in 'world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Load Task - Chunk task: class:com.destroystokyo.paper.io.chunk.ChunkLoadTask, for world 'world', (22,-26), hashcode:1189237201, priority: 0
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Save Task - none
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread] Chunk Neighbors: 
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   23,-26 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   Chunk Neighbors: 
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     23,-25 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Neighbors: 
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-24 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-24 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-23 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-23 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-25 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-26 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       24,-24 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-24 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-24 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-23 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-23 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-25 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-23 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-25 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-24 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       24,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-26 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       24,-26 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-26 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-26 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-27 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-27 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         24,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-27 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:features
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 34
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         25,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     22,-27 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     Chunk Neighbors: 
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-26 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-27 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-26 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       22,-28 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       Chunk Neighbors: 
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-29 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-27 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-27 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         22,-29 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         23,-28 in world:
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder - non-null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Status - null chunk
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Ticket Status - minecraft:full
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Status - null
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Holder Priority - 33
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]         Chunk Neighbors: (Can't show, too deeply nested)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]       23,-28 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     23,-27 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     24,-27 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     22,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     24,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     22,-26 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]     24,-26 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   23,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   22,-27 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   23,-27 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: [com.destroystokyo.paper.io.PaperFileIOThread]   22,-25 in world (CIRCULAR)
-[18:18:28] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[18:18:28] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[18:18:28] [Paper Watchdog Thread/ERROR]: Entity UUID: 8023e569-1655-33fe-bb0f-4b9e8ef455de
-[18:18:28] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (353.40401742426195, 117.89209327893636, -404.1565884653303)
-[18:18:28] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
-[18:18:28] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[353.104017412341, 117.89209327893636, -404.4565884772512] -> [353.7040174361829, 119.69209323125264, -403.85658845340936]
-[18:18:28] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 538
-[18:18:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:28] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[18:18:28] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: TIMED_WAITING
-[18:18:28] [Paper Watchdog Thread/ERROR]: 	Stack:
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.2.1/jdk.internal.misc.Unsafe.park(Native Method)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.2.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:661)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:503)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:443)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.absMoveTo(Entity.java:1846)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.absMoveTo(Entity.java:1830)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1559)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:29)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$PosRot.handle(ServerboundMovePlayerPacket.java:88)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$9524/0x000000080168aa40.run(Unknown Source)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1360)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:185)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1337)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1330)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1464)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4385/0x00000008014e2f30.run(Unknown Source)
-[18:18:28] [Paper Watchdog Thread/ERROR]: 		java.base@18.0.2.1/java.lang.Thread.run(Thread.java:833)
-[18:18:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[18:18:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:18:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23891ms or 477 ticks behind
-[18:18:32] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:18:32] [Server thread/INFO]: [watermelon1117: Set own game mode to Creative Mode]
-[18:18:32] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:18:32] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:18:32] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:18:32] [Server thread/WARN]: watermelon1117 moved too quickly! -12.994111866253604,1.0411917677917302,-2.3744588567987535
-[18:18:36] [Server thread/WARN]: UUID of added entity already exists: EntityRabbit['Rabbit'/431, uuid='c3b5fbde-07e6-4779-97d5-66ec92f7b4ee', l='ServerLevel[world]', x=233.96, y=65.00, z=-640.45, cpos=[14, -41], tl=335535, v=false]
-[18:20:56] [Server thread/INFO]: watermelon1117 issued server command: /gamemode spectator
-[18:20:56] [Server thread/INFO]: [watermelon1117: Set own game mode to Spectator Mode]
-[18:22:21] [Server thread/INFO]: watermelon1117 issued server command: /tp 155 83 -453
-[18:22:21] [Server thread/INFO]: [watermelon1117: Teleported watermelon1117 to 155.500000, 83.000000, -452.500000]
-[18:22:22] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:22:22] [Server thread/INFO]: [watermelon1117: Set own game mode to Creative Mode]
-[18:23:14] [Server thread/INFO]: watermelon1117 issued server command: /gamemode spectator
-[18:23:14] [Server thread/INFO]: [watermelon1117: Set own game mode to Spectator Mode]
-[18:23:25] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:23:25] [Server thread/INFO]: [watermelon1117: Set own game mode to Creative Mode]
-[18:23:30] [Server thread/INFO]: watermelon1117 issued server command: /gamemode adventure
-[18:23:30] [Server thread/INFO]: [watermelon1117: Set own game mode to Adventure Mode]
-[18:23:32] [Server thread/INFO]: watermelon1117 issued server command: /
-[18:24:39] [Server thread/INFO]: watermelon1117 issued server command: /give watermelon1117 minecraft:cooked_beef 5
-[18:24:39] [Server thread/INFO]: [watermelon1117: Gave 5 [Steak] to watermelon1117]
-[18:29:08] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:29:08] [Server thread/INFO]: [watermelon1117: Set own game mode to Creative Mode]
-[18:29:12] [Server thread/INFO]: watermelon1117 issued server command: /gamemode adventure
-[18:29:12] [Server thread/INFO]: [watermelon1117: Set own game mode to Adventure Mode]
-[18:29:21] [Server thread/INFO]: watermelon1117 issued server command: /gamemode spectator
-[18:29:21] [Server thread/INFO]: [watermelon1117: Set own game mode to Spectator Mode]
-[18:29:26] [Server thread/INFO]: watermelon1117 issued server command: /gamemode adventure
-[18:29:26] [Server thread/INFO]: [watermelon1117: Set own game mode to Adventure Mode]
-[18:29:31] [Server thread/INFO]: watermelon1117 was slain by Vindicator
-[18:30:11] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:30:11] [Server thread/INFO]: [watermelon1117: Set own game mode to Creative Mode]
-[18:30:12] [Server thread/INFO]: watermelon1117 issued server command: /gamemode spectator
-[18:30:12] [Server thread/INFO]: [watermelon1117: Set own game mode to Spectator Mode]
-[18:30:20] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:30:20] [Server thread/INFO]: [watermelon1117: Set own game mode to Creative Mode]
-[18:35:12] [Server thread/INFO]: watermelon1117 issued server command: /scoreboard objectives add test minecraft.broken:minecraft.emerald_ore
-[18:35:12] [Server thread/INFO]: [watermelon1117: Created new objective [test]]
-[18:36:14] [Server thread/INFO]: watermelon1117 issued server command: /gamemode adventure
-[18:36:14] [Server thread/INFO]: [watermelon1117: Set own game mode to Adventure Mode]
-[18:36:45] [Server thread/INFO]: watermelon1117 issued server command: /gamemode survival
-[18:36:45] [Server thread/INFO]: [watermelon1117: Set own game mode to Survival Mode]
-[18:37:09] [Server thread/INFO]: watermelon1117 issued server command: /scoreboard players get watermelon1117 test
-[18:37:15] [Server thread/INFO]: watermelon1117 issued server command: /scoreboard players get watermelon1117 test
-[18:40:15] [Server thread/INFO]: watermelon1117 issued server command: /scoreboard players get watermelon1117 test
-[18:40:45] [Server thread/INFO]: watermelon1117 issued server command: /give watermelon1117 minecraft:emerald_ore
-[18:40:45] [Server thread/INFO]: [watermelon1117: Gave 1 [Emerald Ore] to watermelon1117]
-[18:41:17] [Server thread/INFO]: watermelon1117 issued server command: /scoreboard objectives list
-[18:42:08] [Server thread/INFO]: watermelon1117 issued server command: /scoreboard objectives remove test
-[18:42:08] [Server thread/INFO]: [watermelon1117: Removed objective [test]]
-[18:42:41] [Server thread/INFO]: watermelon1117 issued server command: /scoreboard objectives add test minecraft.broken:minecraft.emerald_ore "挖掘玉石"
-[18:42:41] [Server thread/INFO]: [watermelon1117: Created new objective [挖掘玉石]]
-[18:44:05] [Server thread/INFO]: watermelon1117 issued server command: /scoreboard players set watermelon1117 test 1
-[18:44:05] [Server thread/INFO]: [watermelon1117: Set [挖掘玉石] for watermelon1117 to 1]
-[18:44:09] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:44:09] [Server thread/INFO]: [watermelon1117: Set own game mode to Creative Mode]
-[18:44:16] [Server thread/INFO]: watermelon1117 issued server command: /gamemode survival
-[18:44:16] [Server thread/INFO]: [watermelon1117: Set own game mode to Survival Mode]
-[18:44:21] [Server thread/INFO]: watermelon1117 issued server command: /gamemode adventure
-[18:44:21] [Server thread/INFO]: [watermelon1117: Set own game mode to Adventure Mode]
-[18:44:23] [Server thread/INFO]: watermelon1117 issued server command: /gamemode creative
-[18:44:23] [Server thread/INFO]: [watermelon1117: Set own game mode to Creative Mode]
-[18:44:41] [Server thread/INFO]: watermelon1117 issued server command: /scoreboard objectives remove test
-[18:44:41] [Server thread/INFO]: [watermelon1117: Removed objective [挖掘玉石]]
-[18:44:42] [Server thread/INFO]: watermelon1117 lost connection: Disconnected
-[18:44:42] [Server thread/INFO]: watermelon1117 left the game
-[20:58:02] [User Authenticator #2/INFO]: UUID of player watermelon1117 is 8023e569-1655-33fe-bb0f-4b9e8ef455de
-[20:58:02] [Server thread/INFO]: watermelon1117 joined the game
-[20:58:02] [Server thread/INFO]: watermelon1117[/203.204.105.41:3652] logged in with entity id 1725 at ([world]707.1318037521896, 85.11296515238435, -380.9904301764643)
-[21:02:06] [Server thread/INFO]: watermelon1117 lost connection: Disconnected
-[21:02:06] [Server thread/INFO]: watermelon1117 left the game
-[23:03:22] [Craft Scheduler Thread - 1142 - Vault/INFO]: [Vault] Checking for Updates ... 
-[23:03:22] [Craft Scheduler Thread - 1142 - Vault/INFO]: [Vault] No new version available
-[23:45:57] [Server thread/INFO]: Stopping server
-[23:45:57] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
-[23:45:57] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+[19:32:49] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
+[19:32:49] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
+[19:32:49] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents 已訂閱 (2 種方案)
+[19:32:49] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
+[19:32:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: interactivechat [1.0.0]
+[19:32:49] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
+[19:32:49] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.6-SNAPSHOT
+[19:32:50] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:32:50] [Server thread/INFO]: [Geyser-Spigot] 
+[19:32:50] [Server thread/INFO]: [Geyser-Spigot] 正在載入 Geyser 版本 2.0.6-SNAPSHOT (git-master-6856922)
+[19:32:50] [Server thread/INFO]: [Geyser-Spigot] 
+[19:32:50] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:32:55] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser 在 0.0.0.0:25560 啟動
+[19:32:55] [Server thread/INFO]: [Geyser-Spigot] 完成 (4.453s)！ 執行 /geyser help 來取得說明！
+[19:32:55] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.3.0
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.8-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-70.1-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
+[19:32:55] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
+[19:32:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[19:32:58] [pool-28-thread-1/WARN]: [DiscordSRV] This build of DiscordSRV is ahead of master but behind develop. Update your development build!
+[19:32:59] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[19:33:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 已找到伺服器 G:MC-history(879224141989957642)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:新人必看-小測驗(1006904882357346416)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:新人必看-規則與身分組(1002125938202513548)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:影片分享(879378838289797140)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:點歌區(880450726680211588)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:new-member(879224865993932822)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:閒聊(879224141989957645)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:定期會議記錄(1002791202229329991)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:不定期會議紀錄(1003544429702955069)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-sever(1006235675504427038)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:重要座標紀錄(1003655591450910751)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:文案文青市集(1002126420887220316)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:建築藝術家藝廊(1002126761678602271)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:指令碼卡龍巢穴(1002126421617029190)
+[19:33:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 錯誤的控制台頻道ID, 並未轉送控制台輸出。
+[19:33:02] [Server thread/INFO]: [InteractiveChat] Loading languages...
+[19:33:02] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents 已訂閱 (1 種方案)
+[19:33:02] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents 已訂閱 (6 種方案)
+[19:33:02] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents 已訂閱 (3 種方案)
+[19:33:02] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
+[19:33:02] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 啟用鉤取 PlaceholderAPI
+[19:33:02] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:33:03] [Server thread/INFO]: Running delayed init tasks
+[19:33:03] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1 (760)
+[19:33:03] [Server thread/ERROR]: [ViaVersion] ************************************************
+[19:33:03] [Server thread/ERROR]: [ViaVersion] You are using unsupported software and may encounter unforeseeable issues.
+[19:33:03] [Server thread/ERROR]: [ViaVersion] 
+[19:33:03] [Server thread/ERROR]: [ViaVersion] We strongly advise against using software to mess with message signing:
+[19:33:03] [Server thread/ERROR]: [ViaVersion] Instead of doing the obvious (or nothing at all), these kinds of plugins completely break chat message handling, usually then also breaking other plugins.
+[19:33:03] [Server thread/ERROR]: [ViaVersion] 
+[19:33:03] [Server thread/ERROR]: [ViaVersion] We will not provide support in case you encounter issues possibly related to this software.
+[19:33:03] [Server thread/ERROR]: [ViaVersion] ************************************************
+[19:33:03] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[19:33:03] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
+[19:33:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: discordsrv [1.26.0-SNAPSHOT]
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[19:33:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[19:33:03] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:33:03] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[19:33:03] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:33:03] [Server thread/INFO]: Done (45.916s)! For help, type "help"
+[19:33:03] [Server thread/INFO]: Timings Reset
+[19:33:03] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
+[19:33:04] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
+[19:33:04] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
+[19:33:04] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
+[19:33:04] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.4.2, you're on: 4.4.1
+[19:33:06] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
+[19:33:06] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
+[19:33:06] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
+[19:33:08] [Craft Scheduler Thread - 15 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[19:33:13] [Craft Scheduler Thread - 6 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[19:33:17] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
+[23:12:07] [Server thread/INFO]: Stopping the server
+[23:12:07] [Server thread/INFO]: Stopping server
+[23:12:07] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.3.0
+[23:12:07] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
+[23:12:07] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.6-SNAPSHOT
+[23:12:07] [Server thread/INFO]: [Geyser-Spigot] 正在關閉 Geyser。
+[23:12:07] [Server thread/INFO]: [Geyser-Spigot] Geyser 成功關閉。
+[23:12:07] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.3.0
+[23:12:07] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
+[23:12:07] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
+[23:12:07] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+[23:12:07] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0-SNAPSHOT
+[23:12:07] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時36ms
+[23:12:07] [WebSocketConnectReadThread-88/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[23:12:08] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時776ms
+[23:12:08] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[23:12:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:12:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[23:12:08] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
+[23:12:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b598
+[23:12:08] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.1
+[23:12:08] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[23:12:08] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[23:12:08] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.1
+[23:12:08] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[23:12:08] [Server thread/INFO]: [NoEncryption] Disabling NoEncryption v4.2
+[23:12:08] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[23:12:08] [Server thread/INFO]: Saving players
+[23:12:08] [Server thread/INFO]: Saving worlds
+[23:12:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:12:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:12:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:12:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:12:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:12:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:12:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:12:14] [Server thread/INFO]: Flushing Chunk IO
+[23:12:14] [Server thread/INFO]: Closing Thread Pool
+[23:12:14] [Server thread/INFO]: Closing Server
