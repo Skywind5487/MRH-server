@@ -1,39 +1,51 @@
-[00:58:14] [Server thread/INFO]: Stopping the server
-[00:58:15] [Server thread/INFO]: Stopping server
-[00:58:15] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.3.0
-[00:58:15] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
-[00:58:15] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.6-SNAPSHOT
-[00:58:15] [Server thread/INFO]: [Geyser-Spigot] 正在關閉 Geyser。
-[00:58:15] [Server thread/INFO]: [Geyser-Spigot] Geyser 成功關閉。
-[00:58:15] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.3.0
-[00:58:15] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
-[00:58:15] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
-[00:58:15] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
-[00:58:15] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0-SNAPSHOT
-[00:58:15] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時21ms
-[00:58:15] [WebSocketConnectReadThread-113/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[00:58:16] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時1022ms
-[00:58:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
-[00:58:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[00:58:16] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
-[00:58:16] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
-[00:58:16] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b598
-[00:58:16] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.1
-[00:58:16] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[00:58:16] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[00:58:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.1
-[00:58:16] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[00:58:16] [Server thread/INFO]: [NoEncryption] Disabling NoEncryption v4.2
-[00:58:16] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[00:58:16] [Server thread/INFO]: Saving players
-[00:58:16] [Server thread/INFO]: Saving worlds
-[00:58:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:58:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:58:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:58:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:58:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:58:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:58:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:58:22] [Server thread/INFO]: Flushing Chunk IO
-[00:58:22] [Server thread/INFO]: Closing Thread Pool
-[00:58:22] [Server thread/INFO]: Closing Server
+[00:00:08] [Craft Scheduler Thread - 188 - InteractiveChatDiscordSrvAddon/WARN]: [InteractiveChatDiscordSRVAddon] Plugin InteractiveChatDiscordSrvAddon v4.2.3.0 generated an exception while executing task 30
+java.lang.NullPointerException: Cannot invoke "com.loohp.interactivechat.libs.org.json.simple.JSONObject.get(Object)" because "this.data" is null
+	at com.loohp.interactivechatdiscordsrvaddon.resources.ResourceDownloadManager.ensureData(ResourceDownloadManager.java:84) ~[InteractiveChatDiscordSrvAddon-4.2.3.0.jar:?]
+	at com.loohp.interactivechatdiscordsrvaddon.resources.ResourceDownloadManager.downloadExtras(ResourceDownloadManager.java:187) ~[InteractiveChatDiscordSrvAddon-4.2.3.0.jar:?]
+	at com.loohp.interactivechatdiscordsrvaddon.AssetsDownloader.loadExtras(AssetsDownloader.java:161) ~[InteractiveChatDiscordSrvAddon-4.2.3.0.jar:?]
+	at com.loohp.interactivechatdiscordsrvaddon.InteractiveChatDiscordSrvAddon.lambda$onEnable$4(InteractiveChatDiscordSrvAddon.java:330) ~[InteractiveChatDiscordSrvAddon-4.2.3.0.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.2.jar:git-Paper-131]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.2.jar:git-Paper-131]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.2.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[00:16:48] [Server thread/INFO]: Stopping the server
+[00:16:48] [Server thread/INFO]: Stopping server
+[00:16:48] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.3.0
+[00:16:48] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
+[00:16:48] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.6-SNAPSHOT
+[00:16:48] [Server thread/INFO]: [Geyser-Spigot] 正在關閉 Geyser。
+[00:16:48] [Server thread/INFO]: [Geyser-Spigot] Geyser 成功關閉。
+[00:16:48] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.3.0
+[00:16:48] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
+[00:16:48] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
+[00:16:48] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+[00:16:48] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0-SNAPSHOT
+[00:16:48] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時20ms
+[00:16:48] [WebSocketConnectReadThread-113/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:16:49] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時662ms
+[00:16:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[00:16:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:16:49] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[00:16:49] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
+[00:16:49] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b598
+[00:16:49] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.1
+[00:16:49] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[00:16:49] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[00:16:49] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.1
+[00:16:49] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[00:16:49] [Server thread/INFO]: [NoEncryption] Disabling NoEncryption v4.2
+[00:16:49] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[00:16:49] [Server thread/INFO]: Saving players
+[00:16:49] [Server thread/INFO]: Saving worlds
+[00:16:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:16:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:16:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:16:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:16:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:16:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:16:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:16:58] [Server thread/INFO]: Flushing Chunk IO
+[00:16:58] [Server thread/INFO]: Closing Thread Pool
+[00:16:58] [Server thread/INFO]: Closing Server
