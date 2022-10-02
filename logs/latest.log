@@ -1,136 +1,119 @@
-[21:37:49] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[21:37:49] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[21:37:49] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[21:37:52] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[21:38:01] [ServerMain/INFO]: Building unoptimized datafixer
-[21:38:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:38:10] [ServerMain/INFO]: Loaded 7 recipes
-[21:38:20] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[21:38:20] [Server thread/INFO]: Loading properties
-[21:38:20] [Server thread/INFO]: This server is running Paper version git-Paper-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2da891f)
-[21:38:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:38:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:38:21] [Server thread/INFO]: Default game type: SURVIVAL
-[21:38:21] [Server thread/INFO]: Generating keypair
-[21:38:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:38:21] [Server thread/INFO]: Using default channel type
-[21:38:21] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[21:38:21] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:38:27] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[21:38:27] [Server thread/INFO]: [NoEncryption] Loading NoEncryption v4.2
-[21:38:27] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.1
-[21:38:28] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.1 is now loaded, injecting!
-[21:38:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[21:38:29] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[21:38:29] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[21:38:29] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[21:38:29] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[21:38:30] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[21:38:30] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[21:38:30] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[21:38:30] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[21:38:30] [Via-Mappingloader-8/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
-[21:38:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[21:38:31] [Server thread/INFO]: [floodgate] 耗時 1,735 ms 來啟動 Floodgate
-[21:38:31] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[21:38:31] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.1
-[21:38:31] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[21:38:31] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[21:38:31] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[21:38:31] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[21:38:32] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[21:38:32] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[21:38:32] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[21:38:32] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[21:38:32] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[21:38:32] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[21:38:32] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[21:38:32] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
-[21:38:32] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b598
-[21:38:32] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
-[21:38:33] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[21:38:37] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
-[21:38:37] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[21:38:37] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[21:38:39] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@29e77f91]
-[21:38:40] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0-SNAPSHOT
-[21:38:40] [Server thread/INFO]: [InteractiveChat] Loading InteractiveChat v4.2.3.0
-[21:38:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.6-SNAPSHOT
-[21:38:40] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading InteractiveChatDiscordSrvAddon v4.2.3.0
-[21:38:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:38:40] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[21:38:40] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[21:38:40] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[21:38:40] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b598
-[21:38:40] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
-[21:38:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[21:38:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:38:41] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[21:38:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[21:38:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:38:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:38:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:38:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:38:45] [Server thread/INFO]: Preparing level "world"
-[21:38:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:38:49] [Server thread/INFO]: Time elapsed: 1052 ms
-[21:38:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:38:50] [Server thread/INFO]: Time elapsed: 368 ms
-[21:38:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:38:50] [Server thread/INFO]: Time elapsed: 209 ms
-[21:38:50] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[21:38:50] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.1 which is not a depend or softdepend of this plugin.
-[21:38:51] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[21:38:51] [Server thread/INFO]: [NoEncryption] Enabling NoEncryption v4.2
-[21:38:51] [Server thread/INFO]: [NoEncryption] Your server is running version 1.19.2-R0.1-SNAPSHOT.
-[21:38:51] [Server thread/INFO]: [NoEncryption] Compatibility successful!
-[21:38:51] [Server thread/INFO]: [NoEncryption] If you used /reload to update NoEncryption, your players need to disconnect and join back.
-[21:38:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.1
-[21:38:51] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[21:38:51] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.1
-[21:38:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[21:38:52] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
-[21:38:53] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[21:38:53] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0-SNAPSHOT
-[21:38:53] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
-[21:38:53] [Thread-10/WARN]: [floodgate] 
+[10:49:40] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[10:49:40] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[10:49:40] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[10:49:43] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[10:49:48] [ServerMain/INFO]: Building unoptimized datafixer
+[10:49:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:49:54] [ServerMain/INFO]: Loaded 7 recipes
+[10:49:58] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[10:49:58] [Server thread/INFO]: Loading properties
+[10:49:58] [Server thread/INFO]: This server is running Paper version git-Paper-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2da891f)
+[10:49:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:49:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:49:59] [Server thread/INFO]: Default game type: SURVIVAL
+[10:49:59] [Server thread/INFO]: Generating keypair
+[10:49:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:49:59] [Server thread/INFO]: Using default channel type
+[10:49:59] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[10:49:59] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:50:04] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[10:50:04] [Server thread/INFO]: [NoEncryption] Loading NoEncryption v4.2
+[10:50:04] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.1
+[10:50:04] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.1 is now loaded, injecting!
+[10:50:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[10:50:05] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[10:50:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[10:50:05] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[10:50:05] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[10:50:05] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[10:50:05] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[10:50:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[10:50:05] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[10:50:05] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[10:50:05] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[10:50:06] [Server thread/INFO]: [floodgate] 耗時 1,049 ms 來啟動 Floodgate
+[10:50:06] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[10:50:06] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.1
+[10:50:06] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[10:50:07] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[10:50:07] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[10:50:07] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[10:50:07] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[10:50:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[10:50:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[10:50:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[10:50:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[10:50:07] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[10:50:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[10:50:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[10:50:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[10:50:07] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b598
+[10:50:07] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
+[10:50:10] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[10:50:10] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[10:50:10] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[10:50:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@79e16779]
+[10:50:11] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0-SNAPSHOT
+[10:50:11] [Server thread/INFO]: [InteractiveChat] Loading InteractiveChat v4.2.3.0
+[10:50:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.6-SNAPSHOT
+[10:50:11] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading InteractiveChatDiscordSrvAddon v4.2.3.0
+[10:50:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:50:11] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:50:11] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:50:11] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:50:11] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b598
+[10:50:11] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[10:50:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[10:50:12] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:50:12] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[10:50:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[10:50:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:50:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:50:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:50:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:50:14] [Server thread/INFO]: Preparing level "world"
+[10:50:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:50:17] [Server thread/INFO]: Time elapsed: 496 ms
+[10:50:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:50:17] [Server thread/INFO]: Time elapsed: 133 ms
+[10:50:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:50:17] [Server thread/INFO]: Time elapsed: 280 ms
+[10:50:17] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[10:50:17] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.1 which is not a depend or softdepend of this plugin.
+[10:50:18] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[10:50:18] [Server thread/INFO]: [NoEncryption] Enabling NoEncryption v4.2
+[10:50:18] [Server thread/INFO]: [NoEncryption] Your server is running version 1.19.2-R0.1-SNAPSHOT.
+[10:50:18] [Server thread/INFO]: [NoEncryption] Compatibility successful!
+[10:50:18] [Server thread/INFO]: [NoEncryption] If you used /reload to update NoEncryption, your players need to disconnect and join back.
+[10:50:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.1
+[10:50:18] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[10:50:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.1
+[10:50:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[10:50:19] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[10:50:19] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[10:50:19] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0-SNAPSHOT
+[10:50:19] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
+[10:50:20] [Thread-10/WARN]: [floodgate] 
 **********************************
 * The prefix you entered in your Floodgate config (_) could lead to username conflicts!
 * Should a Java player join with the username _Notch, and a Bedrock player join as Notch (who will be given the name _Notch), unwanted results will happen!
 * We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
 **********************************
-[21:39:03] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
-[21:39:04] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
-[21:39:04] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents 已訂閱 (2 種方案)
-[21:39:04] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
-[21:39:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: interactivechat [1.0.0]
-[21:39:04] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
-[21:39:04] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.6-SNAPSHOT
-[21:39:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:39:05] [Server thread/INFO]: [Geyser-Spigot] 
-[21:39:05] [Server thread/INFO]: [Geyser-Spigot] 正在載入 Geyser 版本 2.0.6-SNAPSHOT (git-master-6856922)
-[21:39:05] [Server thread/INFO]: [Geyser-Spigot] 
-[21:39:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:39:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[21:39:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[21:39:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 已找到伺服器 G:MC-history(879224141989957642)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:新人必看-小測驗(1006904882357346416)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:新人必看-規則與身分組(1002125938202513548)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:影片分享(879378838289797140)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:點歌區(880450726680211588)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:new-member(879224865993932822)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:閒聊(879224141989957645)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:定期會議記錄(1002791202229329991)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:不定期會議紀錄(1003544429702955069)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-sever(1006235675504427038)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:重要座標紀錄(1003655591450910751)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:文案文青市集(1002126420887220316)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:建築藝術家藝廊(1002126761678602271)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:指令碼卡龍巢穴(1002126421617029190)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:領任務(1019961414561050624)
-[21:39:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 錯誤的控制台頻道ID, 並未轉送控制台輸出。
-[21:39:39] [pool-25-thread-1/WARN]: [DiscordSRV] 
+[10:50:27] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
+[10:50:27] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
+[10:50:27] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents 已訂閱 (2 種方案)
+[10:50:27] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
+[10:50:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: interactivechat [1.0.0]
+[10:50:27] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
+[10:50:27] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.6-SNAPSHOT
+[10:50:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:50:28] [Server thread/INFO]: [Geyser-Spigot] 
+[10:50:28] [Server thread/INFO]: [Geyser-Spigot] 正在載入 Geyser 版本 2.0.6-SNAPSHOT (git-master-6856922)
+[10:50:28] [Server thread/INFO]: [Geyser-Spigot] 
+[10:50:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:50:29] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[10:50:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[10:50:31] [pool-25-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 84 commits! Get the latest build at your favorite distribution center.
 
@@ -138,102 +121,143 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[21:39:41] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser 在 0.0.0.0:25560 啟動
-[21:39:41] [Server thread/INFO]: [Geyser-Spigot] 完成 (35.696s)！ 執行 /geyser help 來取得說明！
-[21:39:41] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.3.0
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.8-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-70.1-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
-[21:39:42] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
-[21:39:47] [Server thread/INFO]: [InteractiveChat] Loading languages...
-[21:39:47] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents 已訂閱 (1 種方案)
-[21:39:47] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents 已訂閱 (6 種方案)
-[21:39:48] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents 已訂閱 (3 種方案)
-[21:39:48] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
-[21:39:48] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 啟用鉤取 PlaceholderAPI
-[21:39:48] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[21:39:48] [Server thread/INFO]: Running delayed init tasks
-[21:39:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1 (760)
-[21:39:48] [Server thread/ERROR]: [ViaVersion] ************************************************
-[21:39:48] [Server thread/ERROR]: [ViaVersion] You are using unsupported software and may encounter unforeseeable issues.
-[21:39:48] [Server thread/ERROR]: [ViaVersion] 
-[21:39:48] [Server thread/ERROR]: [ViaVersion] We strongly advise against using software to mess with message signing:
-[21:39:48] [Server thread/ERROR]: [ViaVersion] Instead of doing the obvious (or nothing at all), these kinds of plugins completely break chat message handling, usually then also breaking other plugins.
-[21:39:48] [Server thread/ERROR]: [ViaVersion] 
-[21:39:48] [Server thread/ERROR]: [ViaVersion] We will not provide support in case you encounter issues possibly related to this software.
-[21:39:48] [Server thread/ERROR]: [ViaVersion] ************************************************
-[21:39:48] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
-[21:39:48] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
-[21:39:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: discordsrv [1.26.0-SNAPSHOT]
-[21:39:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
-[21:39:48] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[21:39:48] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[21:39:48] [Server thread/INFO]: Done (88.929s)! For help, type "help"
-[21:39:48] [Server thread/INFO]: Timings Reset
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[21:39:49] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[21:39:49] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
-[21:39:49] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.4.2, you're on: 4.4.1
-[21:39:50] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
-[21:39:50] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
-[21:39:50] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
-[21:39:54] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
-[21:39:54] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
-[21:39:54] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
-[21:39:55] [Craft Scheduler Thread - 15 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[21:40:01] [Craft Scheduler Thread - 12 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
-[21:40:11] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
-[23:19:11] [Server thread/INFO]: Stopping the server
-[23:19:11] [Server thread/INFO]: Stopping server
-[23:19:11] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.3.0
-[23:19:11] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
-[23:19:11] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.6-SNAPSHOT
-[23:19:11] [Server thread/INFO]: [Geyser-Spigot] 正在關閉 Geyser。
-[23:19:11] [Server thread/INFO]: [Geyser-Spigot] Geyser 成功關閉。
-[23:19:11] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.3.0
-[23:19:11] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
-[23:19:11] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
-[23:19:11] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
-[23:19:11] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0-SNAPSHOT
-[23:19:11] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時44ms
-[23:19:11] [WebSocketConnectReadThread-119/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[23:19:12] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時897ms
-[23:19:12] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
-[23:19:12] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[23:19:12] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
-[23:19:12] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
-[23:19:12] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b598
-[23:19:12] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.1
-[23:19:12] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[23:19:12] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
-[23:19:12] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.1
-[23:19:12] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[23:19:12] [Server thread/INFO]: [NoEncryption] Disabling NoEncryption v4.2
-[23:19:12] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[23:19:12] [Server thread/INFO]: Saving players
-[23:19:13] [Server thread/INFO]: Saving worlds
-[23:19:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:19:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:19:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:19:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:19:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:19:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:19:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:19:19] [Server thread/INFO]: Flushing Chunk IO
-[23:19:19] [Server thread/INFO]: Closing Thread Pool
-[23:19:19] [Server thread/INFO]: Closing Server
+[10:50:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 已找到伺服器 G:MC-history(879224141989957642)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:新人必看-小測驗(1006904882357346416)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:新人必看-規則與身分組(1002125938202513548)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:影片分享(879378838289797140)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:點歌區(880450726680211588)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:new-member(879224865993932822)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:閒聊(879224141989957645)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:定期會議記錄(1002791202229329991)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:不定期會議紀錄(1003544429702955069)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-sever(1006235675504427038)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:重要座標紀錄(1003655591450910751)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:文案文青市集(1002126420887220316)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:建築藝術家藝廊(1002126761678602271)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:指令碼卡龍巢穴(1002126421617029190)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:領任務(1019961414561050624)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 錯誤的控制台頻道ID, 並未轉送控制台輸出。
+[10:50:33] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser 在 0.0.0.0:25560 啟動
+[10:50:33] [Server thread/INFO]: [Geyser-Spigot] 完成 (4.469s)！ 執行 /geyser help 來取得說明！
+[10:50:33] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.3.0
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "bungeecord-chat-1.16-R0.4-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-11.0.0-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-api-11.0.0-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "eclipse-collections-forkjoin-11.0.0-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "elsa-3.0.0-M5-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fastutil-8.5.8-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "fest-reflect-1.4.1-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "icu4j-70.1-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "kotlin-stdlib-1.6.21-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "lz4-1.3.0-remapped.jar"
+[10:50:33] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded library "mapdb-3.0.8-remapped.jar"
+[10:50:38] [Server thread/INFO]: [InteractiveChat] Loading languages...
+[10:50:38] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.DiscordReadyEvents 已訂閱 (1 種方案)
+[10:50:38] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.OutboundToDiscordEvents 已訂閱 (6 種方案)
+[10:50:38] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechatdiscordsrvaddon.listeners.InboundToGameEvents 已訂閱 (3 種方案)
+[10:50:38] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Enabled!
+[10:50:38] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 啟用鉤取 PlaceholderAPI
+[10:50:39] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:50:39] [Server thread/INFO]: Running delayed init tasks
+[10:50:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1 (760)
+[10:50:39] [Server thread/ERROR]: [ViaVersion] ************************************************
+[10:50:39] [Server thread/ERROR]: [ViaVersion] You are using unsupported software and may encounter unforeseeable issues.
+[10:50:39] [Server thread/ERROR]: [ViaVersion] 
+[10:50:39] [Server thread/ERROR]: [ViaVersion] We strongly advise against using software to mess with message signing:
+[10:50:39] [Server thread/ERROR]: [ViaVersion] Instead of doing the obvious (or nothing at all), these kinds of plugins completely break chat message handling, usually then also breaking other plugins.
+[10:50:39] [Server thread/ERROR]: [ViaVersion] 
+[10:50:39] [Server thread/ERROR]: [ViaVersion] We will not provide support in case you encounter issues possibly related to this software.
+[10:50:39] [Server thread/ERROR]: [ViaVersion] ************************************************
+[10:50:39] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[10:50:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: discordsrv [1.26.0-SNAPSHOT]
+[10:50:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
+[10:50:39] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[10:50:39] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[10:50:39] [Server thread/INFO]: Done (41.640s)! For help, type "help"
+[10:50:39] [Server thread/INFO]: Timings Reset
+[10:50:40] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:50:40] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[10:50:40] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[10:50:41] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.4.2, you're on: 4.4.1
+[10:50:41] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Checking for server resource pack...
+[10:50:41] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] No server resource pack found
+[10:50:41] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Reloading ResourceManager: Default
+[10:50:47] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Optifine" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.optifine.OptifineManager"
+[10:50:48] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Registered ModManager "Chime" of class "com.loohp.interactivechatdiscordsrvaddon.resources.mods.chime.ChimeManager"
+[10:50:48] [Craft Scheduler Thread - 16 - InteractiveChatDiscordSrvAddon/INFO]: [ICDiscordSrvAddon] Loading "Default" resources...
+[10:50:49] [Craft Scheduler Thread - 15 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[10:50:56] [Server thread/INFO]: [ICDiscordSrvAddon] Loaded all resources!
+[10:50:56] [Craft Scheduler Thread - 18 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[16:50:28] [pool-25-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 84 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[16:50:37] [Craft Scheduler Thread - 597 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:50:37] [Craft Scheduler Thread - 597 - Vault/INFO]: [Vault] No new version available
+[17:12:58] [WebSocketConnectReadThread-109/INFO]: [Geyser-Spigot] Got disconnected from the skin uploader: pings have to be at least 10 seconds apart
+[18:54:51] [WebSocketConnectReadThread-1588/INFO]: [Geyser-Spigot] Got disconnected from the skin uploader: pings have to be at least 10 seconds apart
+[19:34:29] [WebSocketConnectReadThread-1971/INFO]: [Geyser-Spigot] Got disconnected from the skin uploader: pings have to be at least 10 seconds apart
+[19:35:08] [WebSocketConnectReadThread-2127/INFO]: [Geyser-Spigot] Got disconnected from the skin uploader: pings have to be at least 10 seconds apart
+[22:50:28] [pool-25-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 84 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[22:50:37] [Craft Scheduler Thread - 1173 - Vault/INFO]: [Vault] Checking for Updates ... 
+[22:50:37] [Craft Scheduler Thread - 1173 - Vault/INFO]: [Vault] No new version available
+[23:20:17] [Server thread/INFO]: Stopping the server
+[23:20:17] [Server thread/INFO]: Stopping server
+[23:20:17] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Disabling InteractiveChatDiscordSrvAddon v4.2.3.0
+[23:20:17] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
+[23:20:17] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.6-SNAPSHOT
+[23:20:17] [Server thread/INFO]: [Geyser-Spigot] 正在關閉 Geyser。
+[23:20:17] [Server thread/INFO]: [Geyser-Spigot] Geyser 成功關閉。
+[23:20:17] [Server thread/INFO]: [InteractiveChat] Disabling InteractiveChat v4.2.3.0
+[23:20:17] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactivechat
+[23:20:17] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractiveChat was disabled.
+[23:20:17] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+[23:20:17] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0-SNAPSHOT
+[23:20:17] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時25ms
+[23:20:18] [WebSocketConnectReadThread-2131/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[23:20:19] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時1106ms
+[23:20:19] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[23:20:19] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:20:19] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[23:20:19] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
+[23:20:19] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b598
+[23:20:19] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.1
+[23:20:19] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[23:20:19] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[23:20:19] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.1
+[23:20:19] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[23:20:19] [Server thread/INFO]: [NoEncryption] Disabling NoEncryption v4.2
+[23:20:19] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[23:20:19] [Server thread/INFO]: Saving players
+[23:20:19] [Server thread/INFO]: Saving worlds
+[23:20:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:20:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:20:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:20:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:20:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:20:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:20:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:20:26] [Server thread/INFO]: Flushing Chunk IO
+[23:20:26] [Server thread/INFO]: Closing Thread Pool
+[23:20:26] [Server thread/INFO]: Closing Server
