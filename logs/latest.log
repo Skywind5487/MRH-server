@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [15:11:05] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
 [15:11:05] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
 [15:11:05] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
@@ -96,6 +97,8 @@
 [15:12:14] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
 [15:12:14] [Thread-10/WARN]: [floodgate] 
 =======
+=======
+>>>>>>> parent of 342545b (new-sever-version)
 [00:21:24] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
 [00:21:24] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
 [00:21:24] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
@@ -192,12 +195,16 @@
 [00:21:54] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0-SNAPSHOT
 [00:21:54] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
 [00:21:56] [Thread-10/WARN]: [floodgate] 
+<<<<<<< HEAD
+>>>>>>> parent of 342545b (new-sever-version)
+=======
 >>>>>>> parent of 342545b (new-sever-version)
 **********************************
 * The prefix you entered in your Floodgate config (_) could lead to username conflicts!
 * Should a Java player join with the username _Notch, and a Bedrock player join as Notch (who will be given the name _Notch), unwanted results will happen!
 * We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
 **********************************
+<<<<<<< HEAD
 <<<<<<< HEAD
 [15:12:25] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
 [15:12:26] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
@@ -213,6 +220,8 @@
 [15:12:26] [Server thread/INFO]: [Geyser-Spigot] ******************************************
 [15:12:29] [pool-25-thread-1/WARN]: [DiscordSRV] 
 =======
+=======
+>>>>>>> parent of 342545b (new-sever-version)
 [00:22:03] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
 [00:22:03] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into DiscordSRV!
 [00:22:03] [Server thread/INFO]: [DiscordSRV] API listener com.loohp.interactivechat.hooks.discordsrv.DiscordSRVEvents 已訂閱 (2 種方案)
@@ -245,6 +254,9 @@
 [00:22:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:領任務(1019961414561050624)
 [00:22:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 錯誤的控制台頻道ID, 並未轉送控制台輸出。
 [00:22:06] [pool-25-thread-1/WARN]: [DiscordSRV] 
+<<<<<<< HEAD
+>>>>>>> parent of 342545b (new-sever-version)
+=======
 >>>>>>> parent of 342545b (new-sever-version)
 
 The current build of DiscordSRV is outdated by 84 commits! Get the latest build at your favorite distribution center.
@@ -253,6 +265,7 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 [15:12:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
 [15:12:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
@@ -337,6 +350,8 @@ Direct Download: https://get.discordsrv.com
 [15:34:38] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
 [15:34:38] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
 =======
+=======
+>>>>>>> parent of 342545b (new-sever-version)
 [00:22:07] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser 在 0.0.0.0:25560 啟動
 [00:22:07] [Server thread/INFO]: [Geyser-Spigot] 完成 (3.76s)！ 執行 /geyser help 來取得說明！
 [00:22:07] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Enabling InteractiveChatDiscordSrvAddon v4.2.3.0
@@ -400,4 +415,7 @@ Direct Download: https://get.discordsrv.com
 [00:33:05] [Server thread/INFO]: Stopping server
 [00:33:06] [Server thread/INFO]: [ICDiscordSrvAddon] InteractiveChat DiscordSRV Addon has been Disabled!
 [00:33:06] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Disabled!
+<<<<<<< HEAD
+>>>>>>> parent of 342545b (new-sever-version)
+=======
 >>>>>>> parent of 342545b (new-sever-version)
