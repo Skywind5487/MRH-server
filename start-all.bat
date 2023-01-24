@@ -1,3 +1,3 @@
 
-start start-server.bat /wait
+start /WAIT start-server.bat 
 start backup.bat
