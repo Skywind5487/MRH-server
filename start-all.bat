@@ -1,3 +1,3 @@
 @echo off
-start "start-server.bat" /wait
+start "./start-server.bat" /wait
 call "backup.bat"
