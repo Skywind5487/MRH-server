@@ -1,0 +1,8 @@
+scoreboard players add $go_to_beinan go_to_beinan 1
+
+execute if score $go_to_beinan go_to_beinan matches 1 run tellraw @a {"text":"小威:(好餓...已經走了很久了...想吃食物...想耍廢...)"}
+execute if score $go_to_beinan go_to_beinan matches 1 run effect @a slowness 100 2
+execute if score $go_to_beinan go_to_beinan matches 1 run effect give @a minecraft:hunger 15 32
+execute if score $go_to_beinan go_to_beinan matches 1 run schedule function mrh_command:go_to_beinan/changbin_1 5.8s
+
+
