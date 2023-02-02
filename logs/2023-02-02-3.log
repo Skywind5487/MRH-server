@@ -1,0 +1,137 @@
+[15:10:09] [ServerMain/INFO]: Building unoptimized datafixer
+[15:10:10] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:10:12] [ServerMain/INFO]: Loaded 7 recipes
+[15:10:14] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[15:10:14] [Server thread/INFO]: Loading properties
+[15:10:14] [Server thread/INFO]: This server is running Paper version git-Paper-131 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2da891f)
+[15:10:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:10:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:10:15] [Server thread/INFO]: Default game type: SURVIVAL
+[15:10:15] [Server thread/INFO]: Generating keypair
+[15:10:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:10:15] [Server thread/INFO]: Using default channel type
+[15:10:15] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[15:10:15] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:10:17] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[15:10:17] [Server thread/INFO]: [NoEncryption] Loading NoEncryption v4.2
+[15:10:17] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.1
+[15:10:17] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.1 is now loaded, injecting!
+[15:10:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[15:10:17] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[15:10:17] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[15:10:18] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[15:10:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:10:18] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[15:10:18] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[15:10:18] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[15:10:18] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[15:10:18] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[15:10:18] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[15:10:19] [Server thread/INFO]: [floodgate] 耗時 685 ms 來啟動 Floodgate
+[15:10:19] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[15:10:19] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.1
+[15:10:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:10:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[15:10:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[15:10:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[15:10:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[15:10:19] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[15:10:19] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[15:10:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[15:10:19] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[15:10:19] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[15:10:19] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[15:10:19] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[15:10:19] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[15:10:19] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b598
+[15:10:19] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
+[15:10:21] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[15:10:21] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.8
+[15:10:21] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[15:10:22] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@e8b5423]
+[15:10:22] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0-SNAPSHOT
+[15:10:22] [Server thread/INFO]: [InteractiveChat] Loading InteractiveChat v4.2.3.0
+[15:10:22] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.6-SNAPSHOT
+[15:10:22] [Server thread/INFO]: [InteractiveChatDiscordSRVAddon] Loading InteractiveChatDiscordSrvAddon v4.2.3.0
+[15:10:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:10:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:10:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:10:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:10:22] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b598
+[15:10:22] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[15:10:22] [Server thread/ERROR]: Error occurred while enabling ViaRewind v2.0.2 (Is it up to date?)
+org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:211) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:176) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:171) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:126) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:1218) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:329) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:251) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:214) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:156) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:141) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:151) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:491) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:429) ~[snakeyaml-1.30.jar:?]
+	at com.viaversion.viaversion.util.Config.loadConfig(Config.java:82) ~[ViaVersion-4.4.1.jar:?]
+	at com.viaversion.viaversion.util.Config.reloadConfig(Config.java:143) ~[ViaVersion-4.4.1.jar:?]
+	at de.gerrygames.viarewind.api.ViaRewindConfigImpl.<init>(ViaRewindConfigImpl.java:14) ~[ViaRewind-2.0.2.jar:?]
+	at de.gerrygames.viarewind.BukkitPlugin.onEnable(BukkitPlugin.java:12) ~[ViaRewind-2.0.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:542) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:565) ~[paper-1.19.2.jar:git-Paper-131]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:479) ~[paper-1.19.2.jar:git-Paper-131]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:279) ~[paper-1.19.2.jar:git-Paper-131]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1125) ~[paper-1.19.2.jar:git-Paper-131]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-131]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[15:10:22] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
+[15:10:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[15:10:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:10:22] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:10:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[15:10:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:10:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:10:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:10:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:10:24] [Server thread/INFO]: Preparing level "world"
+[15:10:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:10:26] [Server thread/INFO]: Time elapsed: 420 ms
+[15:10:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:10:26] [Server thread/INFO]: Time elapsed: 132 ms
+[15:10:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:10:26] [Server thread/INFO]: Time elapsed: 118 ms
+[15:10:26] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[15:10:26] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.1 which is not a depend or softdepend of this plugin.
+[15:10:27] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:10:27] [Server thread/INFO]: [NoEncryption] Enabling NoEncryption v4.2
+[15:10:27] [Server thread/INFO]: [NoEncryption] Your server is running version 1.19.2-R0.1-SNAPSHOT.
+[15:10:27] [Server thread/INFO]: [NoEncryption] Compatibility successful!
+[15:10:27] [Server thread/INFO]: [NoEncryption] If you used /reload to update NoEncryption, your players need to disconnect and join back.
+[15:10:27] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.1
+[15:10:27] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b70-6e2c19f)
+[15:10:27] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.1
+[15:10:27] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.8
+[15:10:28] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[15:10:28] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:10:28] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[15:10:28] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0-SNAPSHOT
+[15:10:28] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.2.3.0
+[15:10:29] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[15:10:29] [Thread-9/WARN]: [floodgate] 
+**********************************
+* The prefix you entered in your Floodgate config (_) could lead to username conflicts!
+* Should a Java player join with the username _Notch, and a Bedrock player join as Notch (who will be given the name _Notch), unwanted results will happen!
+* We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
+**********************************
+[15:10:31] [pool-24-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 84 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
