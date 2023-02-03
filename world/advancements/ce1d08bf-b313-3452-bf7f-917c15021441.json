@@ -1189,7 +1189,6 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:deep_ocean": "2023-01-31 20:32:56 +0800",
       "minecraft:savanna_plateau": "2022-06-05 15:47:10 +0800",
       "minecraft:beach": "2022-06-05 15:46:32 +0800",
       "minecraft:dark_forest": "2022-06-09 13:17:52 +0800",
