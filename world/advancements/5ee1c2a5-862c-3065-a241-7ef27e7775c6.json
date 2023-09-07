@@ -497,6 +497,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-06-06 15:57:09 +0800"
@@ -713,6 +719,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-06-05 19:33:12 +0800"
@@ -804,6 +816,12 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2022-06-05 16:05:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
     },
     "done": true
   },
@@ -1425,6 +1443,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_sword": "2022-06-05 20:56:09 +0800"
@@ -1519,6 +1543,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2022-09-03 16:21:47 +0800",
       "minecraft:deep_ocean": "2022-08-20 16:59:37 +0800",
+      "minecraft:sunflower_plains": "2023-02-06 11:32:11 +0800",
       "minecraft:birch_forest": "2022-08-01 19:04:40 +0800",
       "minecraft:windswept_hills": "2022-08-11 21:37:24 +0800",
       "minecraft:savanna_plateau": "2022-06-05 15:31:46 +0800",
@@ -1536,6 +1561,7 @@
       "minecraft:desert": "2022-06-06 13:24:20 +0800",
       "minecraft:ocean": "2022-08-20 16:56:19 +0800",
       "minecraft:windswept_savanna": "2022-08-19 02:17:43 +0800",
+      "minecraft:deep_lukewarm_ocean": "2023-02-06 13:20:57 +0800",
       "minecraft:flower_forest": "2022-08-22 21:22:02 +0800",
       "minecraft:meadow": "2022-08-29 14:56:36 +0800",
       "minecraft:savanna": "2022-06-05 15:42:39 +0800",
@@ -1546,6 +1572,12 @@
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2022-06-05 16:02:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
     },
     "done": true
   },
@@ -1762,6 +1794,12 @@
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2022-06-07 16:38:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
     },
     "done": true
   },
@@ -2005,6 +2043,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:end/levitate": {
     "criteria": {
       "levitated": "2022-08-01 14:57:31 +0800"
@@ -2173,6 +2217,12 @@
   "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2022-08-01 22:10:19 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
     },
     "done": true
   },
@@ -2356,6 +2406,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_carpet": {
     "criteria": {
       "has_orange_wool": "2022-08-24 23:29:20 +0800"
@@ -2518,6 +2574,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2022-06-05 16:05:21 +0800"
@@ -2575,6 +2643,12 @@
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_ender_eye": "2022-08-01 16:45:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
     },
     "done": true
   },
@@ -2743,6 +2817,12 @@
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2022-08-29 14:58:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
     },
     "done": true
   },
@@ -3436,6 +3516,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2022-08-01 16:49:17 +0800"
@@ -3589,6 +3675,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2022-08-09 15:39:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2023-02-06 13:36:38 +0800"
     },
     "done": true
   },
